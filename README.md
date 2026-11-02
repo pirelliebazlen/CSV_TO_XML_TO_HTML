@@ -49,7 +49,7 @@ références.
 
 Les deux parseurs java valident le xml avec la DTD , XSD et nous permet d'effectuer des statistiques
 - **SAX** lit le fichier en flux, sans le garder en mémoire (~120 Mo).
-- **DOM** charge tout l'arbre en mémoire (~540 Mo) et plante avec `-Xmx512m`
+- **DOM** charge tout l'arbre en mémoire (~540 Mo) et plante avec `-Xmx512m` java.lang.OutOfMemoryError: Java heap space, c’est-à-dire « mémoire insuffisante
 
 ### Étape 4 : site web (XSLT + Saxon)
 
