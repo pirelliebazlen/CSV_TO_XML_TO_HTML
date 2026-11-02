@@ -1,0 +1,2485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE padchest SYSTEM "src/main/java/Etape2_Structure/DTD.dtd">
+<padchest>
+  <dictionnaire>
+    <labelDef id="L1">normal</labelDef>
+    <labelDef id="L2">pulmonary fibrosis</labelDef>
+    <labelDef id="L3">chronic changes</labelDef>
+    <labelDef id="L4">kyphosis</labelDef>
+    <labelDef id="L5">pseudonodule</labelDef>
+    <labelDef id="L6">ground glass pattern</labelDef>
+    <labelDef id="L7">COPD signs</labelDef>
+    <labelDef id="L8">consolidation</labelDef>
+    <labelDef id="L9">goiter</labelDef>
+    <labelDef id="L10">tracheal shift</labelDef>
+    <labelDef id="L11">osteopenia</labelDef>
+    <labelDef id="L12">axial hyperostosis</labelDef>
+    <labelDef id="L13">calcified densities</labelDef>
+    <labelDef id="L14">cardiomegaly</labelDef>
+    <labelDef id="L15">vascular hilar enlargement</labelDef>
+    <labelDef id="L16">calcified granuloma</labelDef>
+    <labelDef id="L17">unchanged</labelDef>
+    <labelDef id="L18">alveolar pattern</labelDef>
+    <labelDef id="L19">interstitial pattern</labelDef>
+    <labelDef id="L20">laminar atelectasis</labelDef>
+    <labelDef id="L21">pleural effusion</labelDef>
+    <labelDef id="L22">apical pleural thickening</labelDef>
+    <labelDef id="L23">suture material</labelDef>
+    <labelDef id="L24">sternotomy</labelDef>
+    <labelDef id="L25">endotracheal tube</labelDef>
+    <labelDef id="L26">pleural effusion both sides</labelDef>
+    <labelDef id="L27">infiltrates</labelDef>
+    <labelDef id="L28">heart insufficiency</labelDef>
+    <labelDef id="L29">hemidiaphragm elevation</labelDef>
+    <labelDef id="L30">hemidiaphragm elevation left side</labelDef>
+    <labelDef id="L31">superior mediastinal enlargement</labelDef>
+    <labelDef id="L32">aortic elongation</labelDef>
+    <labelDef id="L33">scoliosis</labelDef>
+    <labelDef id="L34">sclerotic bone lesion</labelDef>
+    <labelDef id="L35">supra aortic elongation</labelDef>
+    <labelDef id="L36">vertebral degenerative changes</labelDef>
+    <labelDef id="L37">air trapping</labelDef>
+    <labelDef id="L38">descendent aortic elongation</labelDef>
+    <labelDef id="L39">aortic atheromatosis</labelDef>
+    <labelDef id="L40">metal</labelDef>
+    <labelDef id="L41">hypoexpansion basal</labelDef>
+    <labelDef id="L42">abnormal foreign body</labelDef>
+    <labelDef id="L43">hypoexpansion basal both sides</labelDef>
+    <labelDef id="L44">central venous catheter via subclavian vein</labelDef>
+    <labelDef id="L45">central venous catheter</labelDef>
+    <labelDef id="L46">exclude</labelDef>
+    <labelDef id="L47">pacemaker</labelDef>
+    <labelDef id="L48">atelectasis</labelDef>
+    <labelDef id="L49">vertebral anterior compression</labelDef>
+    <labelDef id="L50">costophrenic angle blunting</labelDef>
+    <labelDef id="L51">hiatal hernia</labelDef>
+    <labelDef id="L52">callus rib fracture</labelDef>
+    <labelDef id="L53">pneumonia</labelDef>
+    <labelDef id="L54">diaphragmatic eventration</labelDef>
+    <labelDef id="L55">fibrotic band</labelDef>
+    <labelDef id="L56">diaphragmatic eventration right side</labelDef>
+    <labelDef id="L57">fissure thickening</labelDef>
+    <labelDef id="L58">vascular redistribution</labelDef>
+    <labelDef id="L59">tuberculosis sequelae</labelDef>
+    <labelDef id="L60">volume loss</labelDef>
+    <labelDef id="L61">bronchiectasis</labelDef>
+    <labelDef id="L62">single chamber device</labelDef>
+    <labelDef id="L63">emphysema</labelDef>
+    <labelDef id="L64">vertebral compression</labelDef>
+    <labelDef id="L65">calcified pleural thickening</labelDef>
+    <labelDef id="L66">bronchovascular markings</labelDef>
+    <labelDef id="L67">bullas</labelDef>
+    <labelDef id="L68">hilar congestion</labelDef>
+    <labelDef id="L69">dual chamber device</labelDef>
+    <labelDef id="L70">soft tissue mass</labelDef>
+    <labelDef id="L71">aortic button enlargement</labelDef>
+    <labelDef id="L72">suboptimal study</labelDef>
+    <labelDef id="L73">clavicle fracture</labelDef>
+    <labelDef id="L74">pulmonary mass</labelDef>
+    <labelDef id="L75">increased density</labelDef>
+    <labelDef id="L76">surgery neck</labelDef>
+    <labelDef id="L77">osteosynthesis material</labelDef>
+    <labelDef id="L78">costochondral junction hypertrophy</labelDef>
+    <labelDef id="L79">segmental atelectasis</labelDef>
+    <labelDef id="L80">nodule</labelDef>
+    <labelDef id="L81">reticular interstitial pattern</labelDef>
+    <labelDef id="L82">calcified adenopathy</labelDef>
+    <labelDef id="L83">hyperinflated lung</labelDef>
+    <labelDef id="L84">hyperinflated lung left side</labelDef>
+    <labelDef id="L85">pleural thickening</labelDef>
+    <labelDef id="L86">hilar enlargement</labelDef>
+    <labelDef id="L87">mediastinal mass</labelDef>
+    <labelDef id="L88">nipple shadow</labelDef>
+    <labelDef id="L89">surgery heart</labelDef>
+    <labelDef id="L90">pulmonary artery hypertension</labelDef>
+    <labelDef id="L91">central vascular redistribution</labelDef>
+    <labelDef id="L92">tuberculosis</labelDef>
+    <labelDef id="L93">cavitation</labelDef>
+    <labelDef id="L94">flattened diaphragm</labelDef>
+    <labelDef id="L95">granuloma</labelDef>
+    <labelDef id="L96">pleural effusion right side</labelDef>
+    <labelDef id="L97">lobar atelectasis</labelDef>
+    <labelDef id="L98">surgery breast</labelDef>
+    <labelDef id="L99">surgery breast left side</labelDef>
+    <labelDef id="L100">NSG tube</labelDef>
+    <labelDef id="L101">gynecomastia</labelDef>
+    <labelDef id="L102">atypical pneumonia</labelDef>
+    <labelDef id="L103">cervical rib</labelDef>
+    <labelDef id="L104">pectum excavatum</labelDef>
+    <labelDef id="L105">hyperinflated lung both sides</labelDef>
+    <labelDef id="L106">mediastinal enlargement</labelDef>
+    <labelDef id="L107">rib fracture</labelDef>
+    <labelDef id="L108">major fissure thickening</labelDef>
+    <labelDef id="L109">adenopathy</labelDef>
+    <labelDef id="L110">surgery</labelDef>
+    <labelDef id="L111">azygos lobe</labelDef>
+    <labelDef id="L112">miliary opacities</labelDef>
+    <labelDef id="L113">vertebral fracture</labelDef>
+    <labelDef id="L114">pulmonary edema</labelDef>
+    <labelDef id="L115">dai</labelDef>
+    <labelDef id="L116">central venous catheter via jugular vein</labelDef>
+    <labelDef id="L117">mediastinic lipomatosis</labelDef>
+    <labelDef id="L118">pericardial effusion</labelDef>
+    <labelDef id="L119">mammary prosthesis</labelDef>
+    <labelDef id="L120">surgery lung</labelDef>
+    <labelDef id="L121">surgery lung left side</labelDef>
+    <labelDef id="L122">hyperinflated lung right side</labelDef>
+    <labelDef id="L123">humeral fracture</labelDef>
+    <labelDef id="L124">reservoir central venous catheter</labelDef>
+    <labelDef id="L125">hypoexpansion</labelDef>
+    <labelDef id="L126">hypoexpansion both side</labelDef>
+    <labelDef id="L127">heart valve calcified</labelDef>
+    <labelDef id="L128">hemidiaphragm elevation right side</labelDef>
+    <labelDef id="L129">pleural mass</labelDef>
+    <labelDef id="L130">loculated pleural effusion</labelDef>
+    <labelDef id="L131">pectum carinatum</labelDef>
+    <labelDef id="L132">subacromial space narrowing</labelDef>
+    <labelDef id="L133">osteoporosis</labelDef>
+    <labelDef id="L134">bone metastasis</labelDef>
+    <labelDef id="L135">lung metastasis</labelDef>
+    <labelDef id="L136">cyst</labelDef>
+    <labelDef id="L137">humeral prosthesis</labelDef>
+    <labelDef id="L138">humeral prosthesis left side</labelDef>
+    <labelDef id="L139">artificial heart valve</labelDef>
+    <labelDef id="L140">artificial aortic heart valve</labelDef>
+    <labelDef id="L141">artificial mitral heart valve</labelDef>
+    <labelDef id="L142">mastectomy</labelDef>
+    <labelDef id="L143">mastectomy left side</labelDef>
+    <labelDef id="L144">post radiotherapy changes</labelDef>
+    <labelDef id="L145">lytic bone lesion</labelDef>
+    <labelDef id="L146">minor fissure thickening</labelDef>
+    <labelDef id="L147">subcutaneous emphysema</labelDef>
+    <labelDef id="L148">reticulonodular interstitial pattern</labelDef>
+    <labelDef id="L149">kerley lines</labelDef>
+    <labelDef id="L150">asbestosis signs</labelDef>
+    <labelDef id="L151">multiple nodules</labelDef>
+    <labelDef id="L152">prosthesis</labelDef>
+    <labelDef id="L153">pulmonary hypertension</labelDef>
+    <labelDef id="L154">pneumoperitoneo</labelDef>
+    <labelDef id="L155">tracheostomy tube</labelDef>
+    <labelDef id="L156">endoprosthesis</labelDef>
+    <labelDef id="L157">air bronchogram</labelDef>
+    <labelDef id="L158">calcified mediastinal adenopathy</labelDef>
+    <labelDef id="L159">central venous catheter via umbilical vein</labelDef>
+    <labelDef id="L160">thoracic cage deformation</labelDef>
+    <labelDef id="L161">interstitial pattern bilateral</labelDef>
+    <labelDef id="L162">obesity</labelDef>
+    <labelDef id="L163">external foreign body</labelDef>
+    <labelDef id="L164">pleural effusion left side</labelDef>
+    <labelDef id="L165">atelectasis basal</labelDef>
+    <labelDef id="L166">atelectasis basal left side</labelDef>
+    <labelDef id="L167">aortic endoprosthesis</labelDef>
+    <labelDef id="L168">calcified fibroadenoma</labelDef>
+    <labelDef id="L169">pneumothorax</labelDef>
+    <labelDef id="L170">azygoesophageal recess shift</labelDef>
+    <labelDef id="L171">chest drain tube</labelDef>
+    <labelDef id="L172">non axial articular degenerative changes</labelDef>
+    <labelDef id="L173">mastectomy right side</labelDef>
+    <labelDef id="L174">ascendent aortic elongation</labelDef>
+    <labelDef id="L175">air fluid level</labelDef>
+    <labelDef id="L176">hydropneumothorax</labelDef>
+    <labelDef id="L177">breast mass</labelDef>
+    <labelDef id="L178">surgery breast right side</labelDef>
+    <labelDef id="L179">blastic bone lesion</labelDef>
+    <labelDef id="L180">respiratory distress</labelDef>
+    <labelDef id="L181">lung vascular paucity</labelDef>
+    <labelDef id="L182">electrical device</labelDef>
+    <labelDef id="L183">total atelectasis</labelDef>
+    <labelDef id="L184">catheter</labelDef>
+    <labelDef id="L185">double J stent</labelDef>
+    <labelDef id="L186">pleural plaques</labelDef>
+    <labelDef id="L187">calcified pleural plaques</labelDef>
+    <labelDef id="L188">lymphangitis carcinomatosa</labelDef>
+    <labelDef id="L189">end on vessel</labelDef>
+    <labelDef id="L190">lepidic adenocarcinoma</labelDef>
+    <labelDef id="L191">mediastinal shift</labelDef>
+    <labelDef id="L192">ventriculoperitoneal drain tube</labelDef>
+    <labelDef id="L193">loculated fissural effusion</labelDef>
+    <labelDef id="L194">esophagic dilatation</labelDef>
+    <labelDef id="L195">dextrocardia</labelDef>
+    <labelDef id="L196">right sided aortic arch</labelDef>
+    <labelDef id="L197">Chilaiditi sign</labelDef>
+    <labelDef id="L198">surgery lung right side</labelDef>
+    <labelDef id="L199">aortic aneurysm</labelDef>
+    <labelDef id="L200">pulmonary artery enlargement</labelDef>
+    <labelDef id="L201">abscess</labelDef>
+    <labelDef id="L202">atelectasis right side</labelDef>
+    <labelDef id="L203">fracture</labelDef>
+    <labelDef id="L204">round atelectasis</labelDef>
+    <labelDef id="L205">mass</labelDef>
+    <labelDef id="L206">atelectasis basal right side</labelDef>
+    <labelDef id="L207">hypoexpansion left side</labelDef>
+    <labelDef id="L208">cervical rib right side</labelDef>
+    <labelDef id="L209">bone cement</labelDef>
+    <labelDef id="L210">pneumomediastinum</labelDef>
+    <labelDef id="L211">surgery humeral</labelDef>
+    <labelDef id="L212">surgery humeral left side</labelDef>
+    <labelDef id="L213">empyema</labelDef>
+    <labelDef id="L214">cervical rib both sides</labelDef>
+    <labelDef id="L215">lipomatosis</labelDef>
+    <labelDef id="L216">nephrostomy tube</labelDef>
+    <labelDef id="L217">sternoclavicular junction hypertrophy</labelDef>
+    <labelDef id="L218">pulmonary venous hypertension</labelDef>
+    <labelDef id="L219">consolidation bilateral</labelDef>
+    <labelDef id="L220">gastrostomy tube</labelDef>
+    <labelDef id="L221">surgery humeral right side</labelDef>
+    <locDef id="LOC1">loc basal</locDef>
+    <locDef id="LOC2">loc basal bilateral</locDef>
+    <locDef id="LOC3">loc tracheal</locDef>
+    <locDef id="LOC4">loc right</locDef>
+    <locDef id="LOC5">loc column</locDef>
+    <locDef id="LOC6">loc hilar</locDef>
+    <locDef id="LOC7">loc lower lung field</locDef>
+    <locDef id="LOC8">loc cardiac</locDef>
+    <locDef id="LOC9">loc mediastinum</locDef>
+    <locDef id="LOC10">loc costophrenic angle</locDef>
+    <locDef id="LOC11">loc left</locDef>
+    <locDef id="LOC12">loc subsegmental</locDef>
+    <locDef id="LOC13">loc pleural</locDef>
+    <locDef id="LOC14">loc apical</locDef>
+    <locDef id="LOC15">loc hemithorax</locDef>
+    <locDef id="LOC16">loc bilateral</locDef>
+    <locDef id="LOC17">loc diaphragm</locDef>
+    <locDef id="LOC18">loc perihilar</locDef>
+    <locDef id="LOC19">loc supra aortic</locDef>
+    <locDef id="LOC20">loc bone</locDef>
+    <locDef id="LOC21">loc humeral head</locDef>
+    <locDef id="LOC22">loc humerus</locDef>
+    <locDef id="LOC23">loc aortic</locDef>
+    <locDef id="LOC24">loc humeral neck</locDef>
+    <locDef id="LOC25">loc cervical</locDef>
+    <locDef id="LOC26">loc shoulder</locDef>
+    <locDef id="LOC27">loc central</locDef>
+    <locDef id="LOC28">loc superior cave vein</locDef>
+    <locDef id="LOC29">loc subclavian vein</locDef>
+    <locDef id="LOC30">loc retrocardiac</locDef>
+    <locDef id="LOC31">loc right costophrenic angle</locDef>
+    <locDef id="LOC32">loc rib</locDef>
+    <locDef id="LOC33">loc anterior rib</locDef>
+    <locDef id="LOC34">loc diffuse bilateral</locDef>
+    <locDef id="LOC35">loc middle lung field</locDef>
+    <locDef id="LOC36">loc supraspisnous</locDef>
+    <locDef id="LOC37">loc left lower lobe</locDef>
+    <locDef id="LOC38">loc left costophrenic angle</locDef>
+    <locDef id="LOC39">loc paravertebral</locDef>
+    <locDef id="LOC40">loc superior mediastinum</locDef>
+    <locDef id="LOC41">loc dorsal vertebrae</locDef>
+    <locDef id="LOC42">loc fissure</locDef>
+    <locDef id="LOC43">loc minor fissure</locDef>
+    <locDef id="LOC44">loc right upper lobe</locDef>
+    <locDef id="LOC45">loc left upper lobe</locDef>
+    <locDef id="LOC46">loc scapula</locDef>
+    <locDef id="LOC47">loc infrahilar</locDef>
+    <locDef id="LOC48">loc pectoral</locDef>
+    <locDef id="LOC49">loc bronchi</locDef>
+    <locDef id="LOC50">loc lobar</locDef>
+    <locDef id="LOC51">loc lower lobe</locDef>
+    <locDef id="LOC52">loc intersomatic space</locDef>
+    <locDef id="LOC53">loc soft tissue</locDef>
+    <locDef id="LOC54">loc clavicle</locDef>
+    <locDef id="LOC55">loc upper lobe</locDef>
+    <locDef id="LOC56">loc lung field</locDef>
+    <locDef id="LOC57">loc extrapleural</locDef>
+    <locDef id="LOC58">loc middle lobe</locDef>
+    <locDef id="LOC59">loc right lower lobe</locDef>
+    <locDef id="LOC60">loc lower mediastinum</locDef>
+    <locDef id="LOC61">loc nipple</locDef>
+    <locDef id="LOC62">loc upper lung field</locDef>
+    <locDef id="LOC63">loc acromioclavicular joint</locDef>
+    <locDef id="LOC64">loc infradiaphragm</locDef>
+    <locDef id="LOC65">loc paracardiac</locDef>
+    <locDef id="LOC66">loc suprahilar</locDef>
+    <locDef id="LOC67">loc aortic button</locDef>
+    <locDef id="LOC68">loc paratracheal</locDef>
+    <locDef id="LOC69">loc posterior rib</locDef>
+    <locDef id="LOC70">loc major fissure</locDef>
+    <locDef id="LOC71">loc rib cartilage</locDef>
+    <locDef id="LOC72">loc hilar bilateral</locDef>
+    <locDef id="LOC73">loc lingula</locDef>
+    <locDef id="LOC74">loc brachiocephalic veins</locDef>
+    <locDef id="LOC75">loc subcutaneous</locDef>
+    <locDef id="LOC76">loc paramediastinum</locDef>
+    <locDef id="LOC77">loc cardiophrenic angle</locDef>
+    <locDef id="LOC78">loc lumbar vertebrae</locDef>
+    <locDef id="LOC79">loc peribronchi</locDef>
+    <locDef id="LOC80">loc rotator cuff</locDef>
+    <locDef id="LOC81">loc gastric chamber</locDef>
+    <locDef id="LOC82">loc cervical vertebrae</locDef>
+    <locDef id="LOC83">loc axilar</locDef>
+    <locDef id="LOC84">loc glenohumeral joint</locDef>
+    <locDef id="LOC85">loc esophageal</locDef>
+    <locDef id="LOC86">loc right hypochondrium</locDef>
+    <locDef id="LOC87">loc hypochondrium</locDef>
+    <locDef id="LOC88">loc thymus</locDef>
+    <locDef id="LOC89">loc aortopulmonary window</locDef>
+    <locDef id="LOC90">loc extrapulmonary</locDef>
+    <locDef id="LOC91">loc airways</locDef>
+    <locDef id="LOC92">loc middle mediastinum</locDef>
+    <locDef id="LOC93">loc coronary</locDef>
+    <locDef id="LOC94">loc costoesternal</locDef>
+    <locDef id="LOC95">loc subpleural</locDef>
+    <locDef id="LOC96">loc gallbladder</locDef>
+    <locDef id="LOC97">loc epigastric</locDef>
+    <locDef id="LOC98">loc bilateral costophrenic angle</locDef>
+    <locDef id="LOC99">loc pulmonary artery</locDef>
+    <locDef id="LOC100">loc left hypochondrium</locDef>
+    <locDef id="LOC101">loc anterior mediastinum</locDef>
+    <locDef id="LOC102">loc supradiaphragm</locDef>
+    <locDef id="LOC103">loc posterior mediastinum</locDef>
+    <locDef id="LOC104">loc carotid artery</locDef>
+  </dictionnaire>
+  <patient id="P1" patientID="839860488694292331637988235681460987" naissance="1930" sexe="F">
+    <etude id="S1" studyID="20536686640136348236148679891455886468">
+      <rapport reportID="4765777" methode="Physician">
+        <texte>sin hallazg patolog edad pacient .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="20536686640136348236148679891455886468_k6ga29.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P2" patientID="313572750430997347502932654319389875966" naissance="1929" sexe="M">
+    <etude id="S2" studyID="135803415504923515076821959678074435083">
+      <rapport reportID="4991845" methode="Physician">
+        <texte>cambi pulmonar cronic sever . sign fibrosis bibasal . sutil infiltr pseudonodul milimetr vidri deslustr localiz bas . cifosis sever .</texte>
+        <labels><label ref="L2"/><label ref="L3"/><label ref="L4"/><label ref="L5"/><label ref="L6"/></labels>
+        <localisations><loc ref="LOC1"/><loc ref="LOC2"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L2"/><loc ref="LOC2"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+          <phrase><label ref="L4"/></phrase>
+          <phrase><label ref="L5"/><label ref="L6"/><loc ref="LOC1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0034069</cui><cui>C0742362</cui><cui>C2115817</cui><cui>C3544344</cui></cuisLabels>
+        <cuisLocalisations><cui>C1282378</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="135803415504923515076821959678074435083_fzis7d.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="135803415504923515076821959678074435083_fzis7b.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S46398" studyID="216840111366964013451228379692012229120345763">
+      <rapport reportID="4314472" methode="RNN_model">
+        <texte>torax suci sugest epoc form mas llamat ambas bas sin objetiv are condensacion pulmon . desplaz traque haci lad derech relacion con boci conoc . osteopeni . cifosis dorsal con osificacion ligament vertebral anterior .</texte>
+        <labels><label ref="L7"/><label ref="L8"/><label ref="L9"/><label ref="L10"/><label ref="L11"/><label ref="L12"/><label ref="L13"/><label ref="L4"/></labels>
+        <localisations><loc ref="LOC3"/><loc ref="LOC1"/><loc ref="LOC4"/><loc ref="LOC5"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L7"/><label ref="L8"/><loc ref="LOC1"/></phrase>
+          <phrase><label ref="L9"/><label ref="L10"/><loc ref="LOC3"/><loc ref="LOC4"/></phrase>
+          <phrase><label ref="L11"/><label ref="L12"/><label ref="L13"/><label ref="L4"/><loc ref="LOC5"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C0521530</cui><cui>C0018021</cui><cui>C0029453</cui><cui>C1400000</cui><cui>C2203586</cui><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations><cui>C0040578</cui><cui>C1282378</cui><cui>C0444532</cui><cui>C0037949</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013451228379692012229120345763_01-033-112.png" dossier="21" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013451228379692012229120345763_01-033-135.png" dossier="21" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S47070" studyID="216840111366964013534861372972012346123415968">
+      <rapport reportID="4380113" methode="RNN_model">
+        <texte>indic cardiotorac limit alto normal . hili prominent orig vascul . granulom calcific camp inferior derech . marc cifosis dorsal .</texte>
+        <labels><label ref="L14"/><label ref="L15"/><label ref="L16"/><label ref="L4"/></labels>
+        <localisations><loc ref="LOC6"/><loc ref="LOC7"/><loc ref="LOC4"/><loc ref="LOC8"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/></phrase>
+          <phrase><label ref="L16"/><loc ref="LOC7"/><loc ref="LOC4"/></phrase>
+          <phrase><label ref="L4"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0018800</cui><cui>C0333404</cui><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205150</cui><cui>C0444532</cui><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013534861372972012346123415968_01-134-199.png" dossier="21" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013534861372972012346123415968_01-135-040.png" dossier="23" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P3" patientID="50783093527901818115346441867348318648" naissance="1925" sexe="F">
+    <etude id="S3" studyID="113855343774216031107737439268243531979">
+      <rapport reportID="4955977" methode="Physician">
+        <texte>. . siluet cardi mediastin dentr normal . cambi pulmonar cronic . . . sen costofren libr . . . no sign enfermed metastas .</texte>
+        <labels><label ref="L3"/></labels>
+        <localisations><loc ref="LOC8"/><loc ref="LOC9"/><loc ref="LOC10"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L3"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/><loc ref="LOC9"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/><loc ref="LOC9"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC10"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0742362</cui></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui><cui>C0025066</cui><cui>C0230151</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="113855343774216031107737439268243531979_3k951l.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="113855343774216031107737439268243531979_3k951n.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P4" patientID="3707275269754751392247446521222810702" naissance="1978" sexe="M">
+    <etude id="S4" studyID="313903302629300007485735352869488750471">
+      <rapport reportID="5310833" methode="Physician">
+        <texte>objet mejori radiolog con practic resolucion infiltr intersticioalveol objetiv estudi previ fech 04 01 2017 persist algun opac mal defin bas izquierd . rest estudi sin cambi relev respect previ con comp .</texte>
+        <labels><label ref="L17"/><label ref="L18"/><label ref="L19"/></labels>
+        <localisations><loc ref="LOC1"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L17"/></phrase>
+          <phrase><label ref="L18"/><label ref="L19"/><loc ref="LOC1"/><loc ref="LOC11"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1332240</cui><cui>C2073538</cui></cuisLabels>
+        <cuisLocalisations><cui>C1282378</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="313903302629300007485735352869488750471_75sg0k.png" dossier="0" projection="AP" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S101162" studyID="12752243479320241625086">
+      <rapport reportID="4119540" methode="RNN_model">
+        <texte>sin alter .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="12752243479320241625086_00-136-061.png" dossier="45" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P5" patientID="93535126770783451980359712286922420997" naissance="1957" sexe="M">
+    <etude id="S5" studyID="3137231742710829928-247610802266403640553">
+      <rapport reportID="4969767" methode="Physician">
+        <texte>radiografi actual comp con previ 26 juni persistent derram pleural derech . pequen atelectasi subsegmentari bas izquierd . sutur cerclaj esternotomi medi . engros pleural apical izquierd .</texte>
+        <labels><label ref="L20"/><label ref="L21"/><label ref="L22"/><label ref="L23"/><label ref="L24"/></labels>
+        <localisations><loc ref="LOC1"/><loc ref="LOC12"/><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC14"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L20"/><loc ref="LOC12"/><loc ref="LOC1"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L21"/><loc ref="LOC13"/><loc ref="LOC4"/></phrase>
+          <phrase><label ref="L22"/><loc ref="LOC13"/><loc ref="LOC11"/><loc ref="LOC14"/></phrase>
+          <phrase><label ref="L23"/><label ref="L24"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073625</cui><cui>C4305366</cui><cui>C0185792</cui></cuisLabels>
+        <cuisLocalisations><cui>C1282378</cui><cui>C0929165</cui><cui>C0032225</cui><cui>C0444532</cui><cui>C0734296</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="3137231742710829928-247610802266403640553_km0qf9.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="3137231742710829928-247610802266403640553_kine6a.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S6" studyID="313723174271082992847610802266403640553-4">
+      <rapport reportID="4923353" methode="Physician">
+        <texte>sin grand cambi con respect estudi previ ayer con comp .</texte>
+        <labels><label ref="L17"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="313723174271082992847610802266403640553-4_hhi4rq.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S7" studyID="313723174271082992847610802266403640553-2">
+      <rapport reportID="4901773" methode="Physician">
+        <texte>derram pleural bilateral predomini derech . pequen infiltr interstici alveolar parch bilateral ambos hemitorax . tub endotraqueal 5 mm carin . cerclaj esternotomi medi . sin grand cambi con respect estudi previ ayer .</texte>
+        <labels><label ref="L18"/><label ref="L21"/><label ref="L25"/><label ref="L17"/><label ref="L24"/><label ref="L19"/></labels>
+        <localisations><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC15"/><loc ref="LOC3"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L18"/><label ref="L19"/><loc ref="LOC15"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L26"/><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L25"/><loc ref="LOC3"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+          <phrase><label ref="L24"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1332240</cui><cui>C2073625</cui><cui>C0336630</cui><cui>C0185792</cui><cui>C2073538</cui></cuisLabels>
+        <cuisLocalisations><cui>C0032225</cui><cui>C0444532</cui><cui>C0934569</cui><cui>C0040578</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="313723174271082992847610802266403640553-2_40kxq3.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S8" studyID="313723174271082992847610802266403640553">
+      <rapport reportID="4900821" methode="Physician">
+        <texte>derram pleural bilateral predomini derech . pequen infiltr parch ambos hemitorax . tub endotraqueal . cerclaj esternotomi medi .</texte>
+        <labels><label ref="L21"/><label ref="L27"/><label ref="L25"/><label ref="L24"/></labels>
+        <localisations><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC15"/><loc ref="LOC3"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L26"/><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L27"/><loc ref="LOC15"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L25"/><loc ref="LOC3"/></phrase>
+          <phrase><label ref="L24"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073625</cui><cui>C0277877</cui><cui>C0336630</cui><cui>C0185792</cui></cuisLabels>
+        <cuisLocalisations><cui>C0032225</cui><cui>C0444532</cui><cui>C0934569</cui><cui>C0040578</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="313723174271082992847610802266403640553_w8dk8c.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S9" studyID="313723174271082992847610802266403640553_5">
+      <rapport reportID="4899848" methode="Physician">
+        <texte>sutur esternotomi medi . elevacion hemidiafragm izquierd present estudi previ . pers derram pleural bilateral mayor cuanti derech . liger infiltr perihili bibasal valor icc .</texte>
+        <labels><label ref="L28"/><label ref="L21"/><label ref="L24"/><label ref="L29"/><label ref="L27"/><label ref="L23"/></labels>
+        <localisations><loc ref="LOC17"/><loc ref="LOC18"/><loc ref="LOC2"/><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC11"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L28"/><label ref="L27"/><loc ref="LOC18"/><loc ref="LOC2"/></phrase>
+          <phrase><label ref="L21"/><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L24"/><label ref="L23"/></phrase>
+          <phrase><label ref="L30"/><loc ref="LOC17"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L30"/><loc ref="LOC17"/><loc ref="LOC11"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0018801</cui><cui>C2073625</cui><cui>C0185792</cui><cui>C2073707</cui><cui>C0277877</cui><cui>C4305366</cui></cuisLabels>
+        <cuisLocalisations><cui>C0011980</cui><cui>C0225702</cui><cui>C0032225</cui><cui>C0444532</cui><cui>C0443246</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="313723174271082992847610802266403640553_5_2icww3.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P6" patientID="244685263100771469051214745085012030119" naissance="1945" sexe="F">
+    <etude id="S10" studyID="105529804483623054726294337265160703666">
+      <rapport reportID="5238017" methode="Physician">
+        <texte>cabez cuell humeral derech apreci lesion sugest encondrom sin cambi respect estudi previ 14 9 15 . aument mediastin anterosuperior relacion con elongacion tronc supraaort vs boci . cambi degener ose con osteofitosis escoliosis dors lumb . elongacion aortic .</texte>
+        <labels><label ref="L31"/><label ref="L32"/><label ref="L33"/><label ref="L34"/><label ref="L35"/><label ref="L36"/><label ref="L9"/></labels>
+        <localisations><loc ref="LOC19"/><loc ref="LOC20"/><loc ref="LOC21"/><loc ref="LOC22"/><loc ref="LOC23"/><loc ref="LOC4"/><loc ref="LOC24"/><loc ref="LOC25"/><loc ref="LOC9"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L31"/><label ref="L35"/><label ref="L9"/><loc ref="LOC19"/><loc ref="LOC9"/></phrase>
+          <phrase><label ref="L32"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L33"/><label ref="L36"/><loc ref="LOC20"/></phrase>
+          <phrase><label ref="L34"/><loc ref="LOC21"/><loc ref="LOC22"/><loc ref="LOC4"/><loc ref="LOC24"/><loc ref="LOC25"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4273001</cui><cui>C0036439</cui><cui>C4315325</cui><cui>C4290224</cui><cui>C0018021</cui></cuisLabels>
+        <cuisLocalisations><cui>C0262950</cui><cui>C0223683</cui><cui>C0020164</cui><cui>C0003483</cui><cui>C0444532</cui><cui>C0448034</cui><cui>C0920882</cui><cui>C0025066</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="105529804483623054726294337265160703666_6zn76a.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="105529804483623054726294337265160703666_6zro32.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P7" patientID="76478060312810134599679306720116852498" naissance="1987" sexe="F">
+    <etude id="S11" studyID="238285621348398466668514178112618553012">
+      <rapport reportID="5498692" methode="Physician">
+        <texte>sin alter radiolog significacion .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="238285621348398466668514178112618553012_a7k6dv.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P8" patientID="211676018114322936525876155155978326212" naissance="1958" sexe="F">
+    <etude id="S12" studyID="152191969602076825998375638267191596461">
+      <rapport reportID="4913344" methode="Physician">
+        <texte>sin hallazg radiolog signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="152191969602076825998375638267191596461_ck9qkz.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P9" patientID="139363266799141930129368850508503463058" naissance="1948" sexe="F">
+    <etude id="S13" studyID="102185472428957491598043403159908631419">
+      <rapport reportID="4995391" methode="Physician">
+        <texte>sign radiolog epoc con atrap aere .</texte>
+        <labels><label ref="L7"/><label ref="L37"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L7"/><label ref="L37"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C0231819</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="102185472428957491598043403159908631419_zb8kco.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="102185472428957491598043403159908631419_zb8kcm.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P10" patientID="113184737610424480264857337818446971288" naissance="1927" sexe="F">
+    <etude id="S14" studyID="281123549817181624378616624376681002225">
+      <rapport reportID="4859689" methode="Physician">
+        <texte>no apreci infiltr ni condens pulmonar . escoliosis dorsolumb . elongacion ateromatosis aortic .</texte>
+        <labels><label ref="L38"/><label ref="L33"/><label ref="L39"/></labels>
+        <localisations><loc ref="LOC23"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L38"/><label ref="L39"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L33"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4476542</cui><cui>C0036439</cui><cui>C1096249</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="281123549817181624378616624376681002225_30lryc.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="281123549817181624378616624376681002225_2lbcip.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P11" patientID="132905598244344199302356904572008903408" naissance="1997" sexe="F">
+    <etude id="S15" studyID="84289138814897824414670894017743137660">
+      <rapport reportID="4674875" methode="Physician">
+        <texte>normal .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="84289138814897824414670894017743137660_xjsw7k.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P12" patientID="207495651950868079059474631960287618739" naissance="1986" sexe="M">
+    <etude id="S16" studyID="197091927572940220397465706155403294733">
+      <rapport reportID="4665473" methode="Physician">
+        <texte>no identif imagen condensacion ni opac pulmonar entid signific . siluet cardiomediastin dentr limit normal . compar con estudi previ 2010 sin identific cambi signific .</texte>
+        <labels><label ref="L17"/></labels>
+        <localisations><loc ref="LOC8"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L17"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="197091927572940220397465706155403294733_skbcrv.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="197091927572940220397465706155403294733_s4xtdd.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S70578" studyID="216840111366964012558082906712010098142352183">
+      <rapport reportID="3812816" methode="RNN_model">
+        <texte>sin alter radiolog significacion .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010098142352183_03-144-086.png" dossier="32" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P13" patientID="163995406284018596913093962224045518908" naissance="1960" sexe="M">
+    <etude id="S17" studyID="258055173326723517262722952856353517225">
+      <rapport reportID="4841969" methode="Physician">
+        <texte>no apreci infiltr ni condens pulmonar .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="258055173326723517262722952856353517225_hcez67.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="258055173326723517262722952856353517225_gxjwwm.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S84646" studyID="216840111366964012558082906712009350123858691">
+      <rapport reportID="3747468" methode="RNN_model">
+        <texte>sign radiolog epoc .</texte>
+        <labels><label ref="L7"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L7"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712009350123858691_00-082-185.png" dossier="38" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="216840111366964012558082906712009350123858691_00-083-030.png" dossier="40" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+  </patient>
+  <patient id="P14" patientID="224319854913603592455198894978520564865" naissance="1934" sexe="M">
+    <etude id="S18" studyID="164248849740406851039799839958404888661">
+      <rapport reportID="4778372" methode="Physician">
+        <texte>imagen pequen taman redond densid metal proyect torax hombre i relacion probabl con perdigon . compresion par lateral izquierd traque probabl estructur vascular . hipoventilacion bibasal .</texte>
+        <labels><label ref="L40"/><label ref="L31"/><label ref="L41"/><label ref="L42"/><label ref="L35"/></labels>
+        <localisations><loc ref="LOC26"/><loc ref="LOC3"/><loc ref="LOC11"/><loc ref="LOC2"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L40"/><label ref="L42"/><loc ref="LOC26"/></phrase>
+          <phrase><label ref="L31"/><label ref="L35"/><loc ref="LOC3"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L43"/><loc ref="LOC2"/></phrase>
+          <phrase><label ref="L43"/><loc ref="LOC2"/></phrase>
+          <phrase><label ref="L43"/><loc ref="LOC2"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0025552</cui><cui>C4273001</cui><cui>C0016542</cui></cuisLabels>
+        <cuisLocalisations><cui>C0037004</cui><cui>C0040578</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="164248849740406851039799839958404888661_etstxt.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S69420" studyID="216840111366964012819207061112010278082340887">
+      <rapport reportID="3917186" methode="RNN_model">
+        <texte>presenci multipl imagen puntiform densid metal proyect are hombr izquierd asi hemitorax izquierd vertic pulmon derech relacion con cuerp extran perdigon . sin alter pleuroparenquimat resen .</texte>
+        <labels><label ref="L42"/><label ref="L40"/><label ref="L23"/></labels>
+        <localisations><loc ref="LOC4"/><loc ref="LOC11"/><loc ref="LOC13"/><loc ref="LOC26"/><loc ref="LOC15"/><loc ref="LOC14"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L42"/><label ref="L40"/><label ref="L23"/><loc ref="LOC4"/><loc ref="LOC11"/><loc ref="LOC26"/><loc ref="LOC15"/><loc ref="LOC14"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC13"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0016542</cui><cui>C0025552</cui><cui>C4305366</cui></cuisLabels>
+        <cuisLocalisations><cui>C0444532</cui><cui>C0443246</cui><cui>C0032225</cui><cui>C0037004</cui><cui>C0934569</cui><cui>C0734296</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012819207061112010278082340887_03-186-088.png" dossier="31" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964012819207061112010278082340887_03-186-074.png" dossier="31" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964012819207061112010278082340887_03-186-057.png" dossier="31" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P15" patientID="122113458248232192114674752959967366181" naissance="1976" sexe="F">
+    <etude id="S19" studyID="243837679625088918208093479515843617254">
+      <rapport reportID="5084816" methode="Physician">
+        <texte>. . . . siluet cardiomediastin dentr normal . . . parenquim pulmon sin infiltr signific patolog . sen costofren libr .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations><loc ref="LOC8"/><loc ref="LOC10"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC10"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui><cui>C0230151</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="243837679625088918208093479515843617254_zotvy7.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="243837679625088918208093479515843617254_znbkkx.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P16" patientID="8611100909726326876620393323820815701" naissance="1942" sexe="M">
+    <etude id="S20" studyID="49602503074420747438297888031645729553">
+      <rapport reportID="5028117" methode="Physician">
+        <texte>via central trav ven subclavi derech con extrem distal ven cav superior . elongacion aortic . cambi mecan degener column axial . sin hallazg relev .</texte>
+        <labels><label ref="L32"/><label ref="L36"/><label ref="L44"/></labels>
+        <localisations><loc ref="LOC27"/><loc ref="LOC23"/><loc ref="LOC4"/><loc ref="LOC5"/><loc ref="LOC28"/><loc ref="LOC29"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L32"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L36"/><loc ref="LOC5"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L44"/><loc ref="LOC28"/><loc ref="LOC29"/><loc ref="LOC4"/><loc ref="LOC27"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4290224</cui><cui>C0398281</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205099</cui><cui>C0003483</cui><cui>C0444532</cui><cui>C0037949</cui><cui>C3165182</cui><cui>C0038532</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="49602503074420747438297888031645729553_n9jt8a.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S21" studyID="49602503074420747438297888031645729553_2">
+      <rapport reportID="5023735" methode="Physician">
+        <texte>. . siluet cardi mediastin dentr normal . hili prominent probabl orig vascul . . . sen costofren libr . . . hallazg radiolog sugest epoc con atrap aere retrocardiac . . . objet catet venos central derech con extrem distal ven cav superior inici auricul derech . . . . . necesari dat clinic correlacion hallazg radiolog .</texte>
+        <labels><label ref="L7"/><label ref="L45"/><label ref="L15"/><label ref="L37"/></labels>
+        <localisations><loc ref="LOC27"/><loc ref="LOC4"/><loc ref="LOC10"/><loc ref="LOC28"/><loc ref="LOC6"/><loc ref="LOC8"/><loc ref="LOC9"/><loc ref="LOC30"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L46"/></phrase>
+          <phrase><label ref="L7"/><label ref="L37"/><loc ref="LOC30"/></phrase>
+          <phrase><label ref="L45"/><loc ref="LOC28"/><loc ref="LOC4"/><loc ref="LOC27"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/><loc ref="LOC9"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/><loc ref="LOC9"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC10"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C1145640</cui><cui>C0231819</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205099</cui><cui>C0444532</cui><cui>C0230151</cui><cui>C3165182</cui><cui>C0205150</cui><cui>C1522601</cui><cui>C0025066</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="49602503074420747438297888031645729553_2_ut0yzd.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P17" patientID="155425273695446939355029887990704125385" naissance="1985" sexe="F">
+    <etude id="S22" studyID="337234085099221143119428528401779812468">
+      <rapport reportID="5353225" methode="Physician">
+        <texte>sin hallazg relev .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="337234085099221143119428528401779812468_1hc03o.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="337234085099221143119428528401779812468_1hfc86.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P18" patientID="275399192536152976712005368676646344887" naissance="1935" sexe="M">
+    <etude id="S23" studyID="184310702224069058068590499996908398488">
+      <rapport reportID="4870922" methode="Physician">
+        <texte>cambi pulmonar cronic . marcapas tricameral . no identific imagen sugest neumotorax .</texte>
+        <labels><label ref="L47"/><label ref="L3"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L47"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0030163</cui><cui>C0742362</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="184310702224069058068590499996908398488_9u3c15.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="184310702224069058068590499996908398488_yjqmua.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P19" patientID="39366693364734268955682136018540034162" naissance="1939" sexe="M">
+    <etude id="S24" studyID="200091420165336548849526592472869689994">
+      <rapport reportID="5017058" methode="Physician">
+        <texte>cambi pulmonar cronic . atelectasi retrocardiac . cifosis acun vertebral anterior .</texte>
+        <labels><label ref="L48"/><label ref="L49"/><label ref="L3"/><label ref="L4"/></labels>
+        <localisations><loc ref="LOC5"/><loc ref="LOC30"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L48"/><loc ref="LOC30"/></phrase>
+          <phrase><label ref="L49"/><label ref="L4"/><loc ref="LOC5"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0004144</cui><cui>C0742362</cui><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations><cui>C0037949</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="200091420165336548849526592472869689994_n0exds.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="200091420165336548849526592472869689994_n0exdu.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S46812" studyID="216840111366964013395900950222012171114214047">
+      <rapport reportID="4284016" methode="RNN_model">
+        <texte>. . pinzamient sen costofren derech con are panalizacion basal ipsilateral relacion con cambi fibrosis pulmon permanec sin grand cambi respect estudi previ fech 07 11 2011 con compar . . . sin hallazg entid signific .</texte>
+        <labels><label ref="L50"/><label ref="L2"/></labels>
+        <localisations><loc ref="LOC10"/><loc ref="LOC1"/><loc ref="LOC31"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L50"/><label ref="L2"/><loc ref="LOC10"/><loc ref="LOC1"/><loc ref="LOC31"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0742855</cui><cui>C0034069</cui></cuisLabels>
+        <cuisLocalisations><cui>C0230151</cui><cui>C1282378</cui><cui>C0504099</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013395900950222012171114214047_01-142-161.png" dossier="21" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S47284" studyID="216840111366964013389126595622012158095044013">
+      <rapport reportID="4276010" methode="RNN_model">
+        <texte>sign radiolog epoc . cifosis dorsal con acun anterior cuerp dorsal medi .</texte>
+        <labels><label ref="L7"/><label ref="L4"/><label ref="L49"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L7"/><label ref="L4"/><label ref="L49"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013389126595622012158095044013_01-144-160.png" dossier="21" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013389126595622012158095044013_01-144-146.png" dossier="21" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S57502" studyID="216840111366964013200840352202011306142056565">
+      <rapport reportID="4147989" methode="RNN_model">
+        <texte>pinzamient sen costofren derech con are panalizacion basal derech sugest cambi fibrosis pulmon .</texte>
+        <labels><label ref="L50"/><label ref="L2"/></labels>
+        <localisations><loc ref="LOC10"/><loc ref="LOC1"/><loc ref="LOC31"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L50"/><label ref="L2"/><loc ref="LOC10"/><loc ref="LOC1"/><loc ref="LOC31"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0742855</cui><cui>C0034069</cui></cuisLabels>
+        <cuisLocalisations><cui>C0230151</cui><cui>C1282378</cui><cui>C0504099</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013200840352202011306142056565_01-024-082.png" dossier="26" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S61537" studyID="216840111366964013534861372972012352112832317">
+      <rapport reportID="4383495" methode="RNN_model">
+        <texte>engros pleural apical bilateral . patron intersticial fundamental basal derech . pinzamient sen costofren .</texte>
+        <labels><label ref="L22"/><label ref="L19"/><label ref="L50"/></labels>
+        <localisations><loc ref="LOC4"/><loc ref="LOC13"/><loc ref="LOC14"/><loc ref="LOC1"/><loc ref="LOC16"/><loc ref="LOC10"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L22"/><loc ref="LOC16"/><loc ref="LOC14"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L19"/><loc ref="LOC4"/><loc ref="LOC1"/></phrase>
+          <phrase><label ref="L50"/><loc ref="LOC10"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073538</cui><cui>C0742855</cui></cuisLabels>
+        <cuisLocalisations><cui>C0444532</cui><cui>C0032225</cui><cui>C0734296</cui><cui>C1282378</cui><cui>C0238767</cui><cui>C0230151</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013534861372972012352112832317_01-129-159.png" dossier="27" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S69403" studyID="216840111366964012819207061112010280142540445">
+      <rapport reportID="3919288" methode="RNN_model">
+        <texte>borr peribroncovascul pued correspond con falt inspiracion deb descart edem intersticial .</texte>
+        <labels><label ref="L19"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L19"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073538</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012819207061112010280142540445_03-186-039.png" dossier="31" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S71181" studyID="216840111366964012819207061112010263134447931">
+      <rapport reportID="3908452" methode="RNN_model">
+        <texte>sin hallazg relev .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012819207061112010263134447931_03-130-057.png" dossier="32" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S73181" studyID="216840111366964012734950068292010134101932848">
+      <rapport reportID="3835325" methode="RNN_model">
+        <texte>sin alter radiolog significacion .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012734950068292010134101932848_03-148-010.png" dossier="33" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S103291" studyID="216840111366964012989926673512011067093659320">
+      <rapport reportID="4010176" methode="RNN_model">
+        <texte>sin alter .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012989926673512011067093659320_00-168-169.png" dossier="46" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P20" patientID="205508857754400116559265680271099068581" naissance="1954" sexe="M">
+    <etude id="S25" studyID="202517159601409650920341045633993544544_2">
+      <rapport reportID="4861679" methode="Physician">
+        <texte>liger mejori infiltr posterobasal izquierd descrit estudi previ dia 11 febrer . herni hiat .</texte>
+        <labels><label ref="L51"/><label ref="L27"/></labels>
+        <localisations><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L51"/></phrase>
+          <phrase><label ref="L51"/></phrase>
+          <phrase><label ref="L27"/><loc ref="LOC11"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C3489393</cui><cui>C0277877</cui></cuisLabels>
+        <cuisLocalisations><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="202517159601409650920341045633993544544_2_9i3df2.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="202517159601409650920341045633993544544_2_92rrpu.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S26" studyID="202517159601409650920341045633993544544">
+      <rapport reportID="4891358" methode="Physician">
+        <texte>practic desaparicion derram pleural izquierd . pers liger derram pleural asoci atelectasi basal . rest sin cambi .</texte>
+        <labels><label ref="L48"/><label ref="L17"/><label ref="L21"/></labels>
+        <localisations><loc ref="LOC1"/><loc ref="LOC13"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L48"/><label ref="L21"/><loc ref="LOC1"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC13"/><loc ref="LOC11"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0004144</cui><cui>C2073625</cui></cuisLabels>
+        <cuisLocalisations><cui>C1282378</cui><cui>C0032225</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="202517159601409650920341045633993544544_q8ptnx.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="202517159601409650920341045633993544544_q5bqpy.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P21" patientID="188512838216106347133628949390236913120" naissance="1971" sexe="M">
+    <etude id="S27" studyID="12582988208641810053552022080964044412">
+      <rapport reportID="5177459" methode="Physician">
+        <texte>sin hallazg radiolog signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="12582988208641810053552022080964044412_bdbfde.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P22" patientID="258207845219240472818304538441607141254" naissance="1940" sexe="F">
+    <etude id="S28" studyID="289427999389549886772198825633280652797">
+      <rapport reportID="5268215" methode="Physician">
+        <texte>escoliosis dorsolumb . ateromatosis aortic . sin hallazg radiolog inter .</texte>
+        <labels><label ref="L39"/><label ref="L33"/></labels>
+        <localisations><loc ref="LOC23"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L39"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L33"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1096249</cui><cui>C0036439</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="289427999389549886772198825633280652797_q7w6e7.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S44294" studyID="216840111366964013340662495472012118103211388">
+      <rapport reportID="4252361" methode="RNN_model">
+        <texte>call fractur tercer cuart quint arcos costal anterior derech . parenquim pulmonar sin grand alter . siluet cardiomediastin dentr limit normal .</texte>
+        <labels><label ref="L52"/></labels>
+        <localisations><loc ref="LOC32"/><loc ref="LOC8"/><loc ref="LOC4"/><loc ref="LOC33"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L52"/><loc ref="LOC32"/><loc ref="LOC4"/><loc ref="LOC33"/></phrase>
+          <phrase><label ref="L1"/><label ref="L1"/><loc ref="LOC8"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0006767</cui></cuisLabels>
+        <cuisLocalisations><cui>C0035561</cui><cui>C1522601</cui><cui>C0444532</cui><cui>C4323264</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013340662495472012118103211388_01-139-041.png" dossier="20" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013340662495472012118103211388_01-139-068.png" dossier="20" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P23" patientID="32588016314042952172500681022764831222" naissance="1993" sexe="F">
+    <etude id="S29" studyID="14968019924555248865694512726537711769">
+      <rapport reportID="4943910" methode="Physician">
+        <texte>sin cambi signific respect estudi previ ayer . patron intersticial bilateral difus probabl edem infeccion . indic cardiotorac dentr normal .</texte>
+        <labels><label ref="L19"/><label ref="L17"/><label ref="L53"/></labels>
+        <localisations><loc ref="LOC8"/><loc ref="LOC34"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L19"/><label ref="L53"/><loc ref="LOC34"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073538</cui><cui>C0032285</cui></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="14968019924555248865694512726537711769_3r162a.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P24" patientID="287861280338569160347910046821852139304" naissance="1960" sexe="M">
+    <etude id="S30" studyID="120005774206062253919592068222866365316">
+      <rapport reportID="5117789" methode="Physician">
+        <texte>no apreci infiltr pulmonar .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="120005774206062253919592068222866365316_6s9c7e.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="120005774206062253919592068222866365316_5rzk13.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S69466" studyID="216840111366964012819207061112010294135454492">
+      <rapport reportID="3927154" methode="RNN_model">
+        <texte>. . sin hallazg radiolog signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012819207061112010294135454492_03-186-145.png" dossier="31" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P25" patientID="63878044857071523117712355881690983334" naissance="1962" sexe="F">
+    <etude id="S31" studyID="313549846601143223732953772587192376547">
+      <rapport reportID="4676622" methode="Physician">
+        <texte>sin hallazg signific . lobulacion posterior diafragm derech .</texte>
+        <labels><label ref="L54"/></labels>
+        <localisations><loc ref="LOC4"/><loc ref="LOC17"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L54"/><loc ref="LOC17"/><loc ref="LOC4"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0011981</cui></cuisLabels>
+        <cuisLocalisations><cui>C0444532</cui><cui>C0011980</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="313549846601143223732953772587192376547_5i79or.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="313549846601143223732953772587192376547_nokjyw.png" dossier="0" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+    <etude id="S58588" studyID="216840111366964013962490064942014104195721691">
+      <rapport reportID="4676622" methode="RNN_model">
+        <texte>sin hallazg signific . lobulacion posterior diafragm derech .</texte>
+        <labels><label ref="L54"/></labels>
+        <localisations><loc ref="LOC17"/><loc ref="LOC4"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/><label ref="L54"/><loc ref="LOC17"/><loc ref="LOC4"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0011981</cui></cuisLabels>
+        <cuisLocalisations><cui>C0011980</cui><cui>C0444532</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013962490064942014104195721691_01-187-111.png" dossier="26" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="216840111366964013962490064942014104195721691_01-187-158.png" dossier="26" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+    <etude id="S77104" studyID="216840111366964012558082906712010110085132042">
+      <rapport reportID="3818809" methode="RNN_model">
+        <texte>sin alter radiolog significacion .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010110085132042_03-183-119.png" dossier="35" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S81269" studyID="216840111366964012989926673512011102093905020">
+      <rapport reportID="4033067" methode="RNN_model">
+        <texte>sin alter .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012989926673512011102093905020_00-186-016.png" dossier="37" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P26" patientID="198982093195230504246390228004238255748" naissance="1946" sexe="M">
+    <etude id="S32" studyID="210977798151529988809048465340516359010">
+      <rapport reportID="4780387" methode="Physician">
+        <texte>. cambi pulmonar cronic .</texte>
+        <labels><label ref="L3"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L3"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0742362</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="210977798151529988809048465340516359010_9v5gtq.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S50019" studyID="216840111366964013962490064942014136084113905">
+      <rapport reportID="4695293" methode="RNN_model">
+        <texte>cambi pulmonar cronic con zon infiltr retrocardiac bas izquierd ser necesari valor tras finaliz tratamient si recib tratamient adecu valor complet estudi con tc . hili aument probabl orig vascul .</texte>
+        <labels><label ref="L3"/><label ref="L27"/><label ref="L15"/></labels>
+        <localisations><loc ref="LOC6"/><loc ref="LOC1"/><loc ref="LOC11"/><loc ref="LOC30"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L3"/><label ref="L27"/><loc ref="LOC30"/><loc ref="LOC11"/><loc ref="LOC1"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0742362</cui><cui>C0277877</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205150</cui><cui>C1282378</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013962490064942014136084113905_01-169-032.png" dossier="22" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013962490064942014136084113905_01-169-035.png" dossier="22" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S72021" studyID="216840111366964012558082906712010083092912329">
+      <rapport reportID="3803854" methode="RNN_model">
+        <texte>torax suci .</texte>
+        <labels><label ref="L7"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L7"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010083092912329_03-154-040.png" dossier="32" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964012558082906712010083092912329_03-154-054.png" dossier="32" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P27" patientID="206034364315266209909106199297767779230" naissance="1958" sexe="F">
+    <etude id="S33" studyID="68031809687808465969241796432987316467">
+      <rapport reportID="5227087" methode="Physician">
+        <texte>are consolidacion parenquimat bilateral resp camp medi derech probabl eitiologi infecci . . conclusion . . neumoni bilateral</texte>
+        <labels><label ref="L8"/><label ref="L53"/></labels>
+        <localisations><loc ref="LOC35"/><loc ref="LOC4"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L8"/><label ref="L53"/><loc ref="LOC35"/><loc ref="LOC4"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L53"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L46"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0521530</cui><cui>C0032285</cui></cuisLabels>
+        <cuisLocalisations><cui>C0929434</cui><cui>C0444532</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="68031809687808465969241796432987316467_wir071.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P28" patientID="133519738926541882636332770221982394324" naissance="1949" sexe="M">
+    <etude id="S34" studyID="246171875935311699934475428004488908204">
+      <rapport reportID="4851872" methode="Physician">
+        <texte>. . cambi pulmonar sugest epoc con atrap aere retrocardiac . . . discret aument densid lii sugest discret infiltr correlacion con clinic analit . sen costofren libr . . . discret calcif cabez humeral localizacion ambos tendon supraespin . hallazg sugier cambi tendinopati cronic . . . .</texte>
+        <labels><label ref="L27"/><label ref="L7"/><label ref="L13"/><label ref="L3"/><label ref="L37"/></labels>
+        <localisations><loc ref="LOC36"/><loc ref="LOC21"/><loc ref="LOC37"/><loc ref="LOC22"/><loc ref="LOC10"/><loc ref="LOC30"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L27"/><loc ref="LOC37"/></phrase>
+          <phrase><label ref="L7"/><label ref="L37"/><loc ref="LOC30"/></phrase>
+          <phrase><label ref="L13"/><loc ref="LOC36"/><loc ref="LOC21"/><loc ref="LOC22"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC10"/></phrase>
+          <phrase><label ref="L3"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0277877</cui><cui>C0024117</cui><cui>C2203586</cui><cui>C0742362</cui><cui>C0231819</cui></cuisLabels>
+        <cuisLocalisations><cui>C0225001</cui><cui>C0223683</cui><cui>C1261077</cui><cui>C0020164</cui><cui>C0230151</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="246171875935311699934475428004488908204_2u8xw0.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="246171875935311699934475428004488908204_1w4xnx.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S60301" studyID="216840111366964013274515230432012045121043795">
+      <rapport reportID="4208926" methode="RNN_model">
+        <texte>calcif localizacion ambos tendon supraespin . hallazg sugier cambi tendinopati cronic . pinzamient sen costofren izquierd . sin hallazg .</texte>
+        <labels><label ref="L13"/><label ref="L3"/><label ref="L50"/></labels>
+        <localisations><loc ref="LOC10"/><loc ref="LOC38"/><loc ref="LOC36"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L13"/><loc ref="LOC36"/></phrase>
+          <phrase><label ref="L3"/><label ref="L50"/><loc ref="LOC38"/><loc ref="LOC10"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2203586</cui><cui>C0742362</cui><cui>C0742855</cui></cuisLabels>
+        <cuisLocalisations><cui>C0230151</cui><cui>C0504100</cui><cui>C0225001</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013274515230432012045121043795_01-097-020.png" dossier="27" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P29" patientID="295924120130301648307550461274041646613" naissance="1940" sexe="M">
+    <etude id="S35" studyID="128060267991587422580475423001969971705">
+      <rapport reportID="5083631" methode="Physician">
+        <texte>aparent cardiomegali ensanch mediastin superior expens lin paravertebral escas espiracion torac .</texte>
+        <labels><label ref="L14"/><label ref="L31"/></labels>
+        <localisations><loc ref="LOC39"/><loc ref="LOC8"/><loc ref="LOC9"/><loc ref="LOC40"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L14"/><label ref="L31"/><loc ref="LOC39"/><loc ref="LOC8"/><loc ref="LOC9"/><loc ref="LOC40"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0018800</cui><cui>C4273001</cui></cuisLabels>
+        <cuisLocalisations><cui>C0442150</cui><cui>C1522601</cui><cui>C0025066</cui><cui>C0230147</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="128060267991587422580475423001969971705_pjiogk.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P30" patientID="40041257996498663560079923743946385736" naissance="1969" sexe="M">
+    <etude id="S36" studyID="92479534840024514330951523511120923900">
+      <rapport reportID="5253277" methode="Physician">
+        <texte>engros pleuroparenquimat biapical .</texte>
+        <labels><label ref="L22"/><label ref="L55"/></labels>
+        <localisations><loc ref="LOC13"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L22"/><label ref="L55"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L22"/><label ref="L55"/><loc ref="LOC13"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0865843</cui></cuisLabels>
+        <cuisLocalisations><cui>C0032225</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="92479534840024514330951523511120923900_5xls6f.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P31" patientID="283586123500297507819740682697109974081" naissance="1952" sexe="M">
+    <etude id="S37" studyID="161246397814087032979663851198463313369">
+      <rapport reportID="4872303" methode="Physician">
+        <texte>lobulacion anterior hemidiafragm derech . siluet cardiomediastin parenquim pulmonar sin alter signific .</texte>
+        <labels><label ref="L54"/></labels>
+        <localisations><loc ref="LOC4"/><loc ref="LOC8"/><loc ref="LOC17"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L56"/><loc ref="LOC17"/><loc ref="LOC4"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0011981</cui></cuisLabels>
+        <cuisLocalisations><cui>C0444532</cui><cui>C1522601</cui><cui>C0011980</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="161246397814087032979663851198463313369_9oov3i.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="161246397814087032979663851198463313369_87xsef.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P32" patientID="278769362303508489952658800165012832784" naissance="1948" sexe="F">
+    <etude id="S38" studyID="76402843043728886686565759706427345127">
+      <rapport reportID="5114049" methode="Physician">
+        <texte>cambi espondilosis dorsal . sin hallazg radiolog signific . comp con estudi previ diciembr 2012 sin apreci cambi relev .</texte>
+        <labels><label ref="L36"/><label ref="L17"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L36"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4290224</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="76402843043728886686565759706427345127_cda07x.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="76402843043728886686565759706427345127_cpbity.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P33" patientID="181820943251113403395158953332615833935" naissance="1959" sexe="F">
+    <etude id="S39" studyID="184312736713962370100146067543973751114">
+      <rapport reportID="4723162" methode="Physician">
+        <texte>cambi mecan column dorsal no alter .</texte>
+        <labels><label ref="L36"/></labels>
+        <localisations><loc ref="LOC41"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L36"/><loc ref="LOC41"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4290224</cui></cuisLabels>
+        <cuisLocalisations><cui>C0039987</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="184312736713962370100146067543973751114_9rz4uq.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="184312736713962370100146067543973751114_9rz4uo.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S65047" studyID="216840111366964014008416513202014181103153826">
+      <rapport reportID="4723162" methode="RNN_model">
+        <texte>cambi mecan column dorsal no alter .</texte>
+        <labels><label ref="L36"/></labels>
+        <localisations><loc ref="LOC41"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L36"/><loc ref="LOC41"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4290224</cui></cuisLabels>
+        <cuisLocalisations><cui>C0039987</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964014008416513202014181103153826_01-166-003.png" dossier="29" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964014008416513202014181103153826_01-165-196.png" dossier="31" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S76792" studyID="216840111366964012558082906712010118083852368">
+      <rapport reportID="3824192" methode="RNN_model">
+        <texte>pers ensanch mediastin superior . podri ser posicional visualiz disminucion calibr traque valor clinic pacient . hil metal gas are cervical . hili prominent orig vascul cisur menor engros valor incipient sign icc .</texte>
+        <labels><label ref="L31"/><label ref="L40"/><label ref="L57"/><label ref="L28"/><label ref="L15"/><label ref="L58"/></labels>
+        <localisations><loc ref="LOC25"/><loc ref="LOC3"/><loc ref="LOC42"/><loc ref="LOC6"/><loc ref="LOC40"/><loc ref="LOC43"/><loc ref="LOC9"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L31"/><loc ref="LOC9"/><loc ref="LOC40"/><loc ref="LOC3"/></phrase>
+          <phrase><label ref="L40"/><loc ref="LOC25"/></phrase>
+          <phrase><label ref="L57"/><label ref="L28"/><label ref="L15"/><label ref="L58"/><loc ref="LOC43"/><loc ref="LOC6"/><loc ref="LOC42"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4273001</cui><cui>C0025552</cui><cui>C0018801</cui><cui>C0239041</cui></cuisLabels>
+        <cuisLocalisations><cui>C0920882</cui><cui>C0040578</cui><cui>C0458078</cui><cui>C0205150</cui><cui>C0230147</cui><cui>C0734040</cui><cui>C0025066</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010118083852368_03-182-053.png" dossier="35" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S77059" studyID="216840111366964012558082906712010091110301633">
+      <rapport reportID="3809304" methode="RNN_model">
+        <texte>dentr normal .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010091110301633_03-183-053.png" dossier="35" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P34" patientID="69089194245303182442100731761325235137" naissance="1951" sexe="F">
+    <etude id="S40" studyID="51753302240077846214410306432856713330">
+      <rapport reportID="4828831" methode="Physician">
+        <texte>sin hallazg signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="51753302240077846214410306432856713330_w0bmgz.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P35" patientID="73940510544083056929733975037849226025" naissance="1975" sexe="F">
+    <etude id="S41" studyID="151619064599028082995709172863126236342">
+      <rapport reportID="5254141" methode="Physician">
+        <texte>sin hallazg relev .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="151619064599028082995709172863126236342_adr7uc.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P36" patientID="177532840841020513550731459928838977003" naissance="1931" sexe="F">
+    <etude id="S42" studyID="144161045940829338272357413255772911245">
+      <rapport reportID="5317820" methode="Physician">
+        <texte>perd volum hemitorax derech expens lsd asoci tract pleuroparenquimat engros pleural hallazg probabl relacion con secuel tbc . escoliosis dorsolumb . elongacion aortic . discret elevacion hemidiafragm izquierd . sin hallazg radiolog signific sin cambi relev respect previ 29 01 2017 con comp .</texte>
+        <labels><label ref="L32"/><label ref="L33"/><label ref="L55"/><label ref="L29"/><label ref="L59"/><label ref="L60"/></labels>
+        <localisations><loc ref="LOC17"/><loc ref="LOC23"/><loc ref="LOC13"/><loc ref="LOC15"/><loc ref="LOC44"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L32"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L33"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L55"/><label ref="L59"/><label ref="L60"/><loc ref="LOC44"/><loc ref="LOC13"/><loc ref="LOC15"/></phrase>
+          <phrase><label ref="L30"/><loc ref="LOC17"/><loc ref="LOC11"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0036439</cui><cui>C0865843</cui><cui>C2073707</cui><cui>C0494132</cui><cui>C3203358</cui></cuisLabels>
+        <cuisLocalisations><cui>C0011980</cui><cui>C0003483</cui><cui>C0032225</cui><cui>C0934569</cui><cui>C1261074</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="144161045940829338272357413255772911245_6ca9jm.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S108524" studyID="216840111366964012904401302362010333124012513">
+      <rapport reportID="3950637" methode="RNN_model">
+        <texte>cambi cronic predomini lsi . pinzamient sen costofren posterior .</texte>
+        <labels><label ref="L3"/><label ref="L50"/></labels>
+        <localisations><loc ref="LOC45"/><loc ref="LOC10"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L3"/><loc ref="LOC45"/></phrase>
+          <phrase><label ref="L50"/><loc ref="LOC10"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0742362</cui><cui>C0742855</cui></cuisLabels>
+        <cuisLocalisations><cui>C1261076</cui><cui>C0230151</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012904401302362010333124012513_04-019-140.png" dossier="49" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S109672" studyID="216840111366964012904401302362010327120059177">
+      <rapport reportID="3947094" methode="RNN_model">
+        <texte>remit pacient realiz lateral torax . graci .</texte>
+        <labels><label ref="L46"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L46"/><label ref="L46"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012904401302362010327120059177_04-014-090.png" dossier="49" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P37" patientID="43124823150667522163553146055208944599" naissance="1979" sexe="F">
+    <etude id="S43" studyID="97965053291113766610970450200683915158">
+      <rapport reportID="5497776" methode="Physician">
+        <texte>. . estudi rot . no identific infiltr ni condens entid signific . elevacion escapul izquierd visibl estudi previ 2012 pued trat hallazg posicional sin pod descart caus .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations><loc ref="LOC11"/><loc ref="LOC46"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L46"/><loc ref="LOC11"/><loc ref="LOC46"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations><cui>C0443246</cui><cui>C0036277</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="97965053291113766610970450200683915158_ta7i4n.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="97965053291113766610970450200683915158_tabe9w.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P38" patientID="66474886087951963734905127824721953372" naissance="1932" sexe="M">
+    <etude id="S44" studyID="331418305160381206657770521880050705150">
+      <rapport reportID="5294168" methode="Physician">
+        <texte>import cambi cronic parenquim pulmon asoci probabl bronquiectasi infrahiliar bilateral . hili prominent orig vascul . ateromatosis aortic calcific . marcapas unicameral proyect region pectoral izquierd . cerclaj esternotomi medi .</texte>
+        <labels><label ref="L39"/><label ref="L61"/><label ref="L47"/><label ref="L24"/><label ref="L15"/><label ref="L3"/><label ref="L62"/></labels>
+        <localisations><loc ref="LOC23"/><loc ref="LOC47"/><loc ref="LOC48"/><loc ref="LOC6"/><loc ref="LOC49"/><loc ref="LOC11"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L39"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L61"/><label ref="L3"/><loc ref="LOC49"/><loc ref="LOC47"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L47"/><label ref="L62"/><loc ref="LOC48"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L24"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1096249</cui><cui>C0006267</cui><cui>C0030163</cui><cui>C0185792</cui><cui>C0742362</cui><cui>C2733312</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui><cui>C0230111</cui><cui>C0205150</cui><cui>C0006255</cui><cui>C0443246</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="331418305160381206657770521880050705150_72e70c.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S64278" studyID="216840111366964013340662495472012115121841443">
+      <rapport reportID="4249988" methode="RNN_model">
+        <texte>hil esternotomi medi . marcapas . hipercifosis dorsal . hili prominent orig vascul .</texte>
+        <labels><label ref="L24"/><label ref="L47"/><label ref="L4"/><label ref="L15"/></labels>
+        <localisations><loc ref="LOC6"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L24"/><label ref="L47"/><label ref="L4"/><label ref="L15"/><loc ref="LOC6"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0185792</cui><cui>C0030163</cui><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205150</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013340662495472012115121841443_01-108-079.png" dossier="29" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013340662495472012115121841443_01-108-040.png" dossier="29" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P39" patientID="98196770103062682575711903015616199358" naissance="1931" sexe="M">
+    <etude id="S45" studyID="189879177525934914758235054856782466458">
+      <rapport reportID="5510660" methode="Physician">
+        <texte>sign epoc con patron intersticial reticul bilateral perifer predomini ambos lobul inferior relacion con fibrosis patron combin enfisem fibrosis . sin cambi relev respect estudi previ con comp fech 14 03 2017 .</texte>
+        <labels><label ref="L7"/><label ref="L17"/><label ref="L63"/><label ref="L19"/></labels>
+        <localisations><loc ref="LOC50"/><loc ref="LOC51"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L7"/><label ref="L63"/><label ref="L19"/><loc ref="LOC50"/><loc ref="LOC51"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C0034067</cui><cui>C2073538</cui></cuisLabels>
+        <cuisLocalisations><cui>C0225752</cui><cui>C0225758</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="189879177525934914758235054856782466458_rmb21y.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="189879177525934914758235054856782466458_s62cp9.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P40" patientID="198076519081129261161765855511133807632" naissance="1933" sexe="F">
+    <etude id="S46" studyID="63487136239391941594781094159648142893">
+      <rapport reportID="5082558" methode="Physician">
+        <texte>. . hipercifosis dorsal . disminucion espaci intersomat con esclerosis subcondral listesis grad 1 ultim vertebr dorsal primer lumbar . . . rest sin grand cambi respect estudi previ fech 17 12 2012 .</texte>
+        <labels><label ref="L4"/><label ref="L64"/><label ref="L17"/></labels>
+        <localisations><loc ref="LOC41"/><loc ref="LOC52"/><loc ref="LOC5"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L4"/></phrase>
+          <phrase><label ref="L64"/><loc ref="LOC41"/><loc ref="LOC52"/><loc ref="LOC5"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2115817</cui><cui>C0262431</cui></cuisLabels>
+        <cuisLocalisations><cui>C0039987</cui><cui>C0223088</cui><cui>C0037949</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="63487136239391941594781094159648142893_gq1uz5.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="63487136239391941594781094159648142893_gqzn22.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S48672" studyID="216840111366964013076187734852011262101908139">
+      <rapport reportID="4121606" methode="RNN_model">
+        <texte>parenquim pulmon siluet cardiomediastin dentr normal . cifosis dorsal .</texte>
+        <labels><label ref="L4"/></labels>
+        <localisations><loc ref="LOC8"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L4"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013076187734852011262101908139_01-008-011.png" dossier="22" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013076187734852011262101908139_01-008-008.png" dossier="22" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S64077" studyID="216840111366964013217898866992011355115111616">
+      <rapport reportID="4176469" methode="RNN_model">
+        <texte>parenquim pulmon siluet cardiomediastin dentr normal . cifosis dorsal . sin cambi signific respect estudi previ fech 19 12 2011 .</texte>
+        <labels><label ref="L4"/><label ref="L17"/></labels>
+        <localisations><loc ref="LOC8"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L4"/><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013217898866992011355115111616_01-131-106.png" dossier="29" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013217898866992011355115111616_01-131-060.png" dossier="29" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S70549" studyID="216840111366964012558082906712010124110642469">
+      <rapport reportID="3828193" methode="RNN_model">
+        <texte>engros pleural apical bilateral calcific . indic cardiotorac limit alto normal .</texte>
+        <labels><label ref="L22"/><label ref="L65"/><label ref="L14"/></labels>
+        <localisations><loc ref="LOC16"/><loc ref="LOC14"/><loc ref="LOC8"/><loc ref="LOC13"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L22"/><label ref="L65"/><loc ref="LOC16"/><loc ref="LOC14"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0018800</cui></cuisLabels>
+        <cuisLocalisations><cui>C0238767</cui><cui>C0734296</cui><cui>C1522601</cui><cui>C0032225</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010124110642469_03-144-080.png" dossier="32" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S96507" studyID="216840111366964012487858717522009243094802321">
+      <rapport reportID="3684111" methode="RNN_model">
+        <texte>engros pleural apical predomini derech sin hallazg signific .</texte>
+        <labels><label ref="L22"/></labels>
+        <localisations><loc ref="LOC14"/><loc ref="LOC4"/><loc ref="LOC13"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L22"/><loc ref="LOC14"/><loc ref="LOC4"/><loc ref="LOC13"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations><cui>C0734296</cui><cui>C0444532</cui><cui>C0032225</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012487858717522009243094802321_00-022-054.png" dossier="43" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P41" patientID="31605060921092647129354889492725140380" naissance="1937" sexe="M">
+    <etude id="S47" studyID="116214335211172899244399191709569184937">
+      <rapport reportID="4650643" methode="Physician">
+        <texte>sin hallazg signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="116214335211172899244399191709569184937_wxxy0k.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P42" patientID="115933891648546567760532490223099105079" naissance="1938" sexe="M">
+    <etude id="S48" studyID="161720087930788128392552413311709834803">
+      <rapport reportID="4749038" methode="Physician">
+        <texte>import sign radiolog epoc .</texte>
+        <labels><label ref="L7"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L7"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="161720087930788128392552413311709834803_zw9ndh.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P43" patientID="4884190198362136457971924837025901981" naissance="1937" sexe="F">
+    <etude id="S49" studyID="182408105675910680785179281207852452925">
+      <rapport reportID="5162549" methode="Physician">
+        <texte>sin hallazg signific . .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="182408105675910680785179281207852452925_1710ry.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="182408105675910680785179281207852452925_ybx7hr.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S77385" studyID="216840111366964012558082906712010007194629411">
+      <rapport reportID="3756785" methode="RNN_model">
+        <texte>no identific condens ni infiltr pulmonar estudi .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010007194629411_03-122-099.png" dossier="35" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="216840111366964012558082906712010007194629411_03-122-062.png" dossier="35" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+  </patient>
+  <patient id="P44" patientID="27469857597493924763355022866351961988" naissance="1959" sexe="M">
+    <etude id="S50" studyID="240901793831868002350241513124822033145">
+      <rapport reportID="4671607" methode="Physician">
+        <texte>sign enfisem pulmon con bull lsi . aument tram broncovascul maner bilateral probabl relacion con proces infecci</texte>
+        <labels><label ref="L66"/><label ref="L63"/><label ref="L53"/><label ref="L67"/></labels>
+        <localisations><loc ref="LOC45"/><loc ref="LOC49"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L66"/><label ref="L53"/><loc ref="LOC49"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L63"/><label ref="L67"/><loc ref="LOC45"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073518</cui><cui>C0034067</cui><cui>C0032285</cui><cui>C0241982</cui></cuisLabels>
+        <cuisLocalisations><cui>C1261076</cui><cui>C0006255</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="240901793831868002350241513124822033145_clgbhs.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="240901793831868002350241513124822033145_bnzkfq.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P45" patientID="245121435882835496875234917675344313826" naissance="1985" sexe="F">
+    <etude id="S51" studyID="319976350840661489788378306853554168892">
+      <rapport reportID="5136999" methode="Physician">
+        <texte>sin hallazg signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="319976350840661489788378306853554168892_k66lpi.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="319976350840661489788378306853554168892_is6ipx.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P46" patientID="54189049046785323036443069546286747636" naissance="1956" sexe="M">
+    <etude id="S52" studyID="122344634100249204350826448738624565922_2">
+      <rapport reportID="4927171" methode="Physician">
+        <texte>infiltr interstici alveol difus bilateral sin cambi . tub endotraqueal 1 5 cm carin .</texte>
+        <labels><label ref="L18"/><label ref="L25"/><label ref="L19"/></labels>
+        <localisations><loc ref="LOC3"/><loc ref="LOC34"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L18"/><label ref="L19"/><loc ref="LOC34"/><loc ref="LOC16"/></phrase>
+          <phrase><label ref="L25"/><loc ref="LOC3"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1332240</cui><cui>C0336630</cui><cui>C2073538</cui></cuisLabels>
+        <cuisLocalisations><cui>C0040578</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="122344634100249204350826448738624565922_2_waa6q5.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S53" studyID="122344634100249204350826448738624565922">
+      <rapport reportID="4923361" methode="Physician">
+        <texte>comp con estudi ayer sin cambi con respect infiltr interstici alveolar bilateral predomini bibasal asoci derram pleural hallazg sugest icc . sin cambi respect estudi previ ayer con comp .</texte>
+        <labels><label ref="L18"/><label ref="L17"/><label ref="L19"/><label ref="L28"/><label ref="L21"/></labels>
+        <localisations><loc ref="LOC13"/><loc ref="LOC2"/><loc ref="LOC16"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L18"/><label ref="L19"/><label ref="L28"/><label ref="L21"/><loc ref="LOC13"/><loc ref="LOC16"/><loc ref="LOC2"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1332240</cui><cui>C2073538</cui><cui>C0018801</cui><cui>C2073625</cui></cuisLabels>
+        <cuisLocalisations><cui>C0032225</cui><cui>C0238767</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="122344634100249204350826448738624565922_jwi6hp.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P47" patientID="12258663245396477058286432024466027208" naissance="1947" sexe="M">
+    <etude id="S54" studyID="62251368659414281768550499840080640229">
+      <rapport reportID="5502603" methode="Physician">
+        <texte>aument indic cardiotorac . hili congest . sin hallazg radiolog signific .</texte>
+        <labels><label ref="L14"/><label ref="L68"/></labels>
+        <localisations><loc ref="LOC6"/><loc ref="LOC8"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L68"/><loc ref="LOC6"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0018800</cui><cui>C0582411</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205150</cui><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="62251368659414281768550499840080640229_8jw2hb.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="62251368659414281768550499840080640229_8mln0w.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P48" patientID="304602534939089227355717214727839531565" naissance="1918" sexe="M">
+    <etude id="S55" studyID="171051287936845049879249602678024183940">
+      <rapport reportID="4831230" methode="Physician">
+        <texte>i presion</texte>
+        <labels><label ref="L46"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L46"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="171051287936845049879249602678024183940_hmwguj.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S42233" studyID="216840111366964012558082906712010005081758028">
+      <rapport reportID="3755434" methode="RNN_model">
+        <texte>relacion estudi previ fech 25 12 2009 apreci lev disminucion derram pleural derech . pers aument densid bibasal relacion con probabl atelectasi condensacion .</texte>
+        <labels><label ref="L21"/><label ref="L48"/></labels>
+        <localisations><loc ref="LOC2"/><loc ref="LOC4"/><loc ref="LOC13"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L21"/><loc ref="LOC4"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L48"/><loc ref="LOC2"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073625</cui><cui>C0004144</cui></cuisLabels>
+        <cuisLocalisations><cui>C0444532</cui><cui>C0032225</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012558082906712010005081758028_02-124-183.png" dossier="19" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P49" patientID="271951847810624632069092812250232833316" naissance="2002" sexe="M">
+    <etude id="S56" studyID="173348027872651650413607534885352239722">
+      <rapport reportID="4657363" methode="Physician">
+        <texte>parenquim pulmon siluet cardiomediastin dentr normal . no apreci alter caj torac .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations><loc ref="LOC8"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="173348027872651650413607534885352239722_ksfbkd.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="173348027872651650413607534885352239722_ksfbkb.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P50" patientID="53687125562956090852736441818829947307" naissance="1952" sexe="M">
+    <etude id="S57" studyID="91046824590296218285321995116548320507">
+      <rapport reportID="4869070" methode="Physician">
+        <texte>. . sign atrap aere . . . indic cardiotorac limit normal . elongacion aortic . . . calcificacion ligament longitudinal comun anterior raquis dorsal sin sign degener probabl relacion enfermed foresti hiperostosis esquelet idiopat difus . . . no apreci opac ni condens signific patolog</texte>
+        <labels><label ref="L32"/><label ref="L7"/><label ref="L13"/><label ref="L37"/><label ref="L12"/></labels>
+        <localisations><loc ref="LOC23"/><loc ref="LOC8"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L32"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L7"/><label ref="L37"/></phrase>
+          <phrase><label ref="L13"/><label ref="L12"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C2203586</cui><cui>C0231819</cui><cui>C1400000</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="91046824590296218285321995116548320507_vtkk7p.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="91046824590296218285321995116548320507_vq78pf.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P51" patientID="123573157478651289703588553949370014789" naissance="1932" sexe="F">
+    <etude id="S58" studyID="47784381729225956156725553701446715500">
+      <rapport reportID="5057974" methode="Physician">
+        <texte>no observ neumotorax signific . hili congest . cardiomegali . ateromatosis aortic calcific . marcapas dai proyect region pectoral izquierd .</texte>
+        <labels><label ref="L39"/><label ref="L47"/><label ref="L68"/><label ref="L14"/></labels>
+        <localisations><loc ref="LOC23"/><loc ref="LOC48"/><loc ref="LOC6"/><loc ref="LOC8"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L39"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L47"/><loc ref="LOC48"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L68"/><loc ref="LOC6"/></phrase>
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1096249</cui><cui>C0030163</cui><cui>C0582411</cui><cui>C0018800</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui><cui>C0230111</cui><cui>C0205150</cui><cui>C1522601</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="47784381729225956156725553701446715500_sgkre8.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S58472" studyID="216840111366964013217898866992012013125958281">
+      <rapport reportID="4188523" methode="RNN_model">
+        <texte>cardiomegali . marcapas bicameral . no apreci infiltr ni condens pulmonar .</texte>
+        <labels><label ref="L14"/><label ref="L69"/><label ref="L47"/></labels>
+        <localisations><loc ref="LOC8"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L69"/><label ref="L47"/><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0018800</cui><cui>C2732817</cui><cui>C0030163</cui></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013217898866992012013125958281_01-043-196.png" dossier="26" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013217898866992012013125958281_01-044-005.png" dossier="27" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P52" patientID="280462310073265991548134106847705397458" naissance="1963" sexe="M">
+    <etude id="S59" studyID="267593312931260619142226905522973356507">
+      <rapport reportID="5245086" methode="Physician">
+        <texte>sin hallazg relev .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="267593312931260619142226905522973356507_dfimnx.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P53" patientID="159275443140036228565713810001843082059" naissance="1968" sexe="M">
+    <etude id="S60" studyID="282962113601706478876461612066976190177">
+      <rapport reportID="5340878" methode="Physician">
+        <texte>marc sign radiolog epoc . tract pleuroparenquimat parahiliar izquierd sin cambi con respect estudi previ may 2016 .</texte>
+        <labels><label ref="L7"/><label ref="L55"/></labels>
+        <localisations><loc ref="LOC18"/><loc ref="LOC13"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L7"/></phrase>
+          <phrase><label ref="L55"/><loc ref="LOC18"/><loc ref="LOC13"/><loc ref="LOC11"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C0865843</cui></cuisLabels>
+        <cuisLocalisations><cui>C0225702</cui><cui>C0032225</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="282962113601706478876461612066976190177_bys50e.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P54" patientID="322910983242088023051744303099967541000" naissance="1934" sexe="F">
+    <etude id="S61" studyID="285796371492896407898360932351947981404">
+      <rapport reportID="4932942" methode="Physician">
+        <texte>atrap aere .</texte>
+        <labels><label ref="L37"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L37"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0231819</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="285796371492896407898360932351947981404_dbgkg1.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P55" patientID="221360453921196013439629607608279826913" naissance="1966" sexe="F">
+    <etude id="S62" studyID="105591880985588572332898967525311229749">
+      <rapport reportID="4909145" methode="Physician">
+        <texte>sin hallazg signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="105591880985588572332898967525311229749_yqjtuk.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P56" patientID="134402298451121655439450191454293497885" naissance="1966" sexe="F">
+    <etude id="S63" studyID="330324745759424821132494701991767497957">
+      <rapport reportID="5155016" methode="Physician">
+        <texte>. sin hallazg .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="330324745759424821132494701991767497957_9fc9au.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P57" patientID="335771629951676288208409070652425603271" naissance="1957" sexe="M">
+    <etude id="S64" studyID="2131660293658241410166268879399943517">
+      <rapport reportID="4727574" methode="Physician">
+        <texte>mejori radiolog con respect infiltr basal izquierd . rest sin cambi con respect anterior estudi .</texte>
+        <labels><label ref="L27"/><label ref="L17"/></labels>
+        <localisations><loc ref="LOC1"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L27"/><loc ref="LOC1"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0277877</cui></cuisLabels>
+        <cuisLocalisations><cui>C1282378</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="2131660293658241410166268879399943517_h0uqdu.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="2131660293658241410166268879399943517_h0uqds.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S51417" studyID="12752243479320241721663">
+      <rapport reportID="4185546" methode="RNN_model">
+        <texte>sin hallazg signific patolog .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="12752243479320241721663_01-048-093.png" dossier="23" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="12752243479320241721663_01-048-126.png" dossier="23" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+  </patient>
+  <patient id="P58" patientID="110738738652703005598703591649887328985" naissance="1935" sexe="M">
+    <etude id="S65" studyID="175828040998318011818448557383860207677">
+      <rapport reportID="4773232" methode="Physician">
+        <texte>sin hallazg patolog edad pacient .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="175828040998318011818448557383860207677_m5a8ih.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S43023" studyID="216840111366964013686042548532013198101049718">
+      <rapport reportID="4512595" methode="RNN_model">
+        <texte>cambi inflamatori caract cronic bas derech . engros pleural apical bilateral . exist liger aument part bland huec supraclavicul derech hallazg radiologi convencional inespecif . liger acun part anterior cuerp vertebral dorsal medi . osteopeni .</texte>
+        <labels><label ref="L3"/><label ref="L22"/><label ref="L70"/><label ref="L49"/><label ref="L11"/></labels>
+        <localisations><loc ref="LOC53"/><loc ref="LOC4"/><loc ref="LOC13"/><loc ref="LOC41"/><loc ref="LOC14"/><loc ref="LOC1"/><loc ref="LOC16"/><loc ref="LOC5"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L3"/><loc ref="LOC4"/><loc ref="LOC1"/></phrase>
+          <phrase><label ref="L22"/><loc ref="LOC16"/><loc ref="LOC14"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L70"/><loc ref="LOC53"/><loc ref="LOC4"/></phrase>
+          <phrase><label ref="L49"/><loc ref="LOC41"/><loc ref="LOC5"/></phrase>
+          <phrase><label ref="L11"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0742362</cui><cui>C0457196</cui><cui>C0029453</cui></cuisLabels>
+        <cuisLocalisations><cui>C0225317</cui><cui>C0444532</cui><cui>C0032225</cui><cui>C0039987</cui><cui>C0734296</cui><cui>C1282378</cui><cui>C0238767</cui><cui>C0037949</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013686042548532013198101049718_02-031-101.png" dossier="19" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013686042548532013198101049718_02-031-119.png" dossier="19" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P59" patientID="114788641597613568402867064501919389443" naissance="1985" sexe="F">
+    <etude id="S66" studyID="101408931302974623103956952273007774313">
+      <rapport reportID="4955992" methode="Physician">
+        <texte>. . mejori radiolog . . . siluet cardi mediastin dentr normal . . . sen costofren libr .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations><loc ref="LOC8"/><loc ref="LOC9"/><loc ref="LOC10"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L46"/></phrase>
+          <phrase><label ref="L46"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/><loc ref="LOC9"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC8"/><loc ref="LOC9"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC10"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations><cui>C1522601</cui><cui>C0025066</cui><cui>C0230151</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="101408931302974623103956952273007774313_9stb1v.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="101408931302974623103956952273007774313_9stb1t.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P60" patientID="11261673292084169585344839962619579960" naissance="1936" sexe="F">
+    <etude id="S67" studyID="67670115219232152220849057375830836196">
+      <rapport reportID="4661905" methode="Physician">
+        <texte>tract fibros granulom calcific con engros pleural apical vertic izquierd probabl caract especif residual con ciert perd volum . calcificacion cay aortic .</texte>
+        <labels><label ref="L71"/><label ref="L22"/><label ref="L39"/><label ref="L55"/><label ref="L16"/><label ref="L60"/></labels>
+        <localisations><loc ref="LOC23"/><loc ref="LOC13"/><loc ref="LOC11"/><loc ref="LOC14"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L71"/><label ref="L39"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L22"/><label ref="L55"/><label ref="L16"/><label ref="L60"/><loc ref="LOC13"/><loc ref="LOC11"/><loc ref="LOC14"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1851119</cui><cui>C1096249</cui><cui>C0865843</cui><cui>C0333404</cui><cui>C3203358</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui><cui>C0032225</cui><cui>C0443246</cui><cui>C0734296</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="67670115219232152220849057375830836196_8lyy43.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S45945" studyID="12752243479320241675465">
+      <rapport reportID="4156327" methode="RNN_model">
+        <texte>perd volum lsi con retraccion superior hili pulmon ipsilateral asoci algun tract pleuroparenquimat pequen granulom calcific vertic pulmon ipsilateral probabl secuel proces infecci inflamatori tbc . hallazg sin cambi relacion rx previ 21 06 10 .</texte>
+        <labels><label ref="L16"/><label ref="L55"/><label ref="L59"/><label ref="L60"/><label ref="L17"/></labels>
+        <localisations><loc ref="LOC6"/><loc ref="LOC14"/><loc ref="LOC45"/><loc ref="LOC13"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L16"/><label ref="L55"/><label ref="L59"/><label ref="L60"/><loc ref="LOC6"/><loc ref="LOC45"/><loc ref="LOC14"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0333404</cui><cui>C0865843</cui><cui>C0494132</cui><cui>C3203358</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205150</cui><cui>C0734296</cui><cui>C1261076</cui><cui>C0032225</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="12752243479320241675465_01-028-184.png" dossier="20" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="12752243479320241675465_01-029-090.png" dossier="21" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+    <etude id="S106994" studyID="12752243479320241183999">
+      <rapport reportID="3857990" methode="RNN_model">
+        <texte>estudi suboptim inclusion parcial ambos vertic pulmonar . liger perd volum lsi asoci tract pleuroparenquimat aspect cronic lsi con algun pequen granulom calcific no present cambi relev con respect estudi previ juni 07 may 09 . no identific infiltr condens parenquimat pulmonar estudi actual . interpretacion</texte>
+        <labels><label ref="L72"/><label ref="L16"/><label ref="L55"/><label ref="L60"/></labels>
+        <localisations><loc ref="LOC45"/><loc ref="LOC14"/><loc ref="LOC13"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L72"/><loc ref="LOC14"/></phrase>
+          <phrase><label ref="L16"/><label ref="L55"/><label ref="L60"/><loc ref="LOC45"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L1"/><label ref="L46"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2828075</cui><cui>C0333404</cui><cui>C0865843</cui><cui>C3203358</cui></cuisLabels>
+        <cuisLocalisations><cui>C1261076</cui><cui>C0734296</cui><cui>C0032225</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="12752243479320241183999_04-012-194.png" dossier="48" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="12752243479320241183999_04-013-080.png" dossier="49" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+  </patient>
+  <patient id="P61" patientID="169289909346590977824044847440506498524" naissance="1981" sexe="M">
+    <etude id="S68" studyID="246150011638121209286805961508731462739">
+      <rapport reportID="4950246" methode="Physician">
+        <texte>no apreci infiltr ni condens pulmonar . fractur clavicul derech .</texte>
+        <labels><label ref="L73"/></labels>
+        <localisations><loc ref="LOC54"/><loc ref="LOC4"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L73"/><loc ref="LOC54"/><loc ref="LOC4"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0159658</cui></cuisLabels>
+        <cuisLocalisations><cui>C0008913</cui><cui>C0444532</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="246150011638121209286805961508731462739_88c8du.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="246150011638121209286805961508731462739_7rcjox.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P62" patientID="318373193507947465057381992195528575144" naissance="1940" sexe="F">
+    <etude id="S69" studyID="238667784273132992367438061109573667140">
+      <rapport reportID="4826014" methode="Physician">
+        <texte>. . hili derech congest discret aument densid difus camp inferior con borramient senocostofren izquierd relacion derram pleural hallazg probabl relacion con insuficient cardiac congest . . . tract pleuroparenquimat lobul superior . . . sin cambi signific respect estudi previ con comp .</texte>
+        <labels><label ref="L68"/><label ref="L17"/><label ref="L55"/><label ref="L28"/><label ref="L21"/></labels>
+        <localisations><loc ref="LOC55"/><loc ref="LOC7"/><loc ref="LOC13"/><loc ref="LOC50"/><loc ref="LOC4"/><loc ref="LOC6"/><loc ref="LOC8"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L68"/><label ref="L28"/><label ref="L21"/><loc ref="LOC7"/><loc ref="LOC13"/><loc ref="LOC4"/><loc ref="LOC6"/><loc ref="LOC8"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+          <phrase><label ref="L55"/><loc ref="LOC55"/><loc ref="LOC13"/><loc ref="LOC50"/></phrase>
+          <phrase><label ref="L55"/><loc ref="LOC55"/><loc ref="LOC13"/><loc ref="LOC50"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0582411</cui><cui>C0865843</cui><cui>C0018801</cui><cui>C2073625</cui></cuisLabels>
+        <cuisLocalisations><cui>C0225756</cui><cui>C0032225</cui><cui>C0225752</cui><cui>C0444532</cui><cui>C0205150</cui><cui>C1522601</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="238667784273132992367438061109573667140_rnltk5.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P63" patientID="159094138658868928674447347956484819685" naissance="1948" sexe="F">
+    <etude id="S70" studyID="303749711587233420279581812693876233202">
+      <rapport reportID="4756356" methode="Physician">
+        <texte>discret opac retrocardiac intersticioalveol context clinic pacient sugier etiologi inflamatori infecci . sen costofren libr . elongacion aortic . espondilosis dorsal .</texte>
+        <labels><label ref="L32"/><label ref="L18"/><label ref="L36"/><label ref="L19"/><label ref="L53"/></labels>
+        <localisations><loc ref="LOC23"/><loc ref="LOC10"/><loc ref="LOC30"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L32"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L18"/><label ref="L19"/><label ref="L53"/><loc ref="LOC30"/></phrase>
+          <phrase><label ref="L36"/></phrase>
+          <phrase><label ref="L1"/><loc ref="LOC10"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1332240</cui><cui>C4290224</cui><cui>C2073538</cui><cui>C0032285</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui><cui>C0230151</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="303749711587233420279581812693876233202_comg8i.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="303749711587233420279581812693876233202_bpyslx.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S36776" studyID="216840111366964013686042548532013143140416469">
+      <rapport reportID="4478568" methode="RNN_model">
+        <texte>elongacion aortic . espondilosis dorsal . parenquim pulmonar sin grand alter .</texte>
+        <labels><label ref="L32"/><label ref="L36"/></labels>
+        <localisations><loc ref="LOC23"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L32"/><loc ref="LOC23"/></phrase>
+          <phrase><label ref="L36"/><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4290224</cui></cuisLabels>
+        <cuisLocalisations><cui>C0003483</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013686042548532013143140416469_02-043-075.png" dossier="16" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P64" patientID="46381251504282711341365165103980610369" naissance="1956" sexe="M">
+    <etude id="S71" studyID="249873038001601568166234221238886850574">
+      <rapport reportID="5008491" methode="Physician">
+        <texte>. engros pleuroparenquimat biapical .</texte>
+        <labels><label ref="L22"/><label ref="L55"/></labels>
+        <localisations><loc ref="LOC13"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L22"/><label ref="L55"/><loc ref="LOC13"/></phrase>
+          <phrase><label ref="L22"/><label ref="L55"/><loc ref="LOC13"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0865843</cui></cuisLabels>
+        <cuisLocalisations><cui>C0032225</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="249873038001601568166234221238886850574_50gwsz.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P65" patientID="198136049184807299831101261408154142510" naissance="1947" sexe="M">
+    <etude id="S72" studyID="30661727075761817007267292459310975718">
+      <rapport reportID="4682063" methode="Physician">
+        <texte>. . visualiz camp medi hemitorax derech masa pulmon aproxim 5 5 x 6 4 cm redond bien defin aument taman respect rx torax previ fech 25 09 2013 con comp descart primer posibil diagnost etiologi tumoral . introduc circuit intern tumor cit form urgent realizacion tc torac . . . cardiomegali . hili prominent probabl orig vascul . sutur esternotomi medi . marcapas bicameral con electrod ad vd .</texte>
+        <labels><label ref="L74"/><label ref="L47"/><label ref="L14"/><label ref="L15"/><label ref="L24"/><label ref="L69"/><label ref="L23"/></labels>
+        <localisations><loc ref="LOC56"/><loc ref="LOC4"/><loc ref="LOC15"/><loc ref="LOC6"/><loc ref="LOC8"/><loc ref="LOC35"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L46"/></phrase>
+          <phrase><label ref="L74"/><loc ref="LOC4"/><loc ref="LOC56"/><loc ref="LOC35"/><loc ref="LOC15"/></phrase>
+          <phrase><label ref="L47"/><label ref="L69"/></phrase>
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/></phrase>
+          <phrase><label ref="L24"/><label ref="L23"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0149726</cui><cui>C0030163</cui><cui>C0018800</cui><cui>C0185792</cui><cui>C2732817</cui><cui>C4305366</cui></cuisLabels>
+        <cuisLocalisations><cui>C0225759</cui><cui>C0444532</cui><cui>C0934569</cui><cui>C0205150</cui><cui>C1522601</cui><cui>C0929434</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="30661727075761817007267292459310975718_j1l0xm.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="30661727075761817007267292459310975718_86nsuj.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S28879" studyID="216840111366964013590140476722013066144337189">
+      <rapport reportID="4432302" methode="RNN_model">
+        <texte>sin cambi . i . cardiac . condensacion lsd valor clinic prox control radiolog</texte>
+        <labels><label ref="L17"/><label ref="L14"/><label ref="L8"/></labels>
+        <localisations><loc ref="LOC44"/><loc ref="LOC8"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L17"/><label ref="L46"/><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L8"/><loc ref="LOC44"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0018800</cui><cui>C0521530</cui></cuisLabels>
+        <cuisLocalisations><cui>C1261074</cui><cui>C1522601</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013590140476722013066144337189_02-047-123.png" dossier="13" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013590140476722013066144337189_02-047-158.png" dossier="13" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S60884" studyID="216840111366964013962490064942014114124828535">
+      <rapport reportID="4682063" methode="RNN_model">
+        <texte>. . visualiz camp medi hemitorax derech masa pulmon aproxim 5 5 x 6 4 cm redond bien defin aument taman respect rx torax previ fech 25 09 2013 con comp descart primer posibil diagnost etiologi tumoral . introduc circuit intern tumor cit form urgent realizacion tc torac . . . cardiomegali . hili prominent probabl orig vascul . sutur esternotomi medi . marcapas bicameral con electrod ad vd .</texte>
+        <labels><label ref="L74"/><label ref="L14"/><label ref="L15"/><label ref="L24"/><label ref="L23"/><label ref="L69"/><label ref="L47"/></labels>
+        <localisations><loc ref="LOC35"/><loc ref="LOC4"/><loc ref="LOC8"/><loc ref="LOC15"/><loc ref="LOC6"/><loc ref="LOC56"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L74"/><loc ref="LOC35"/><loc ref="LOC15"/><loc ref="LOC56"/><loc ref="LOC4"/></phrase>
+          <phrase><label ref="L46"/><label ref="L14"/><loc ref="LOC8"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/></phrase>
+          <phrase><label ref="L24"/><label ref="L23"/><label ref="L69"/><label ref="L47"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0149726</cui><cui>C0018800</cui><cui>C0185792</cui><cui>C4305366</cui><cui>C2732817</cui><cui>C0030163</cui></cuisLabels>
+        <cuisLocalisations><cui>C0929434</cui><cui>C0444532</cui><cui>C1522601</cui><cui>C0934569</cui><cui>C0205150</cui><cui>C0225759</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013962490064942014114124828535_01-185-014.png" dossier="27" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013962490064942014114124828535_01-184-180.png" dossier="31" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P66" patientID="164995557778424590893840254157627871437" naissance="1964" sexe="M">
+    <etude id="S73" studyID="191013230449503900686044524323327462011">
+      <rapport reportID="4738729" methode="Physician">
+        <texte>sign atrap aere epoc . sin hallazg radiolog signific .</texte>
+        <labels><label ref="L7"/><label ref="L37"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L7"/><label ref="L37"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C0231819</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="191013230449503900686044524323327462011_qs7kty.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="191013230449503900686044524323327462011_qcv7p1.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S45385" studyID="216840111366964014008416513202014205115546304">
+      <rapport reportID="4738729" methode="RNN_model">
+        <texte>sign atrap aere epoc . sin hallazg radiolog signific .</texte>
+        <labels><label ref="L7"/><label ref="L37"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L7"/><label ref="L37"/><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui><cui>C0231819</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964014008416513202014205115546304_01-159-011.png" dossier="20" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964014008416513202014205115546304_01-159-073.png" dossier="20" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S88061" studyID="216840111366964013076187734852011278124347320">
+      <rapport reportID="4132199" methode="RNN_model">
+        <texte>sign radiolog epoc .</texte>
+        <labels><label ref="L7"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L7"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013076187734852011278124347320_00-199-061.png" dossier="39" projection="L" pediatrique="No" methodeProjection="ResNet50"/>
+      <image fichier="216840111366964013076187734852011278124347320_00-198-195.png" dossier="47" projection="PA" pediatrique="No" methodeProjection="ResNet50"/>
+    </etude>
+  </patient>
+  <patient id="P67" patientID="18394371105617139987303085446093369157" naissance="1981" sexe="M">
+    <etude id="S74" studyID="316808028365561931793158511235924256690">
+      <rapport reportID="5383893" methode="Physician">
+        <texte>motiv consult dolor cost izdo . . torax sin hallazg radiolog significaion patolog .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L46"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="316808028365561931793158511235924256690_1xhdff.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="316808028365561931793158511235924256690_01sv6w.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P68" patientID="205408452908156674056848683354770447232" naissance="1928" sexe="M">
+    <etude id="S75" studyID="121722089111950575741877258740783632351">
+      <rapport reportID="4958559" methode="Physician">
+        <texte>sin hallazg patolog edad pacient .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="121722089111950575741877258740783632351_55kku6.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P69" patientID="17138547057097332092962492821671192238" naissance="1941" sexe="F">
+    <etude id="S76" studyID="333919235778081142000645469353299765831">
+      <rapport reportID="5121370" methode="Physician">
+        <texte>sign epoc . sin cambi relev respect previ ener 2016 .</texte>
+        <labels><label ref="L7"/><label ref="L17"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L7"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="333919235778081142000645469353299765831_hfq6sz.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P70" patientID="116162465072982443076850371163247525580" naissance="1997" sexe="F">
+    <etude id="S77" studyID="257363608869672643452639640460584331841">
+      <rapport reportID="5036530" methode="Physician">
+        <texte>sin hallazg relev .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="257363608869672643452639640460584331841_2m9azj.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S78" studyID="257363608869672643452639640460584331841_2">
+      <rapport reportID="5044071" methode="Physician">
+        <texte>sutur metal cambi post quirurg nivel cervical . . . sin hallazg relev .</texte>
+        <labels><label ref="L40"/><label ref="L23"/></labels>
+        <localisations><loc ref="LOC25"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L40"/><label ref="L23"/><loc ref="LOC25"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0025552</cui><cui>C4305366</cui></cuisLabels>
+        <cuisLocalisations><cui>C0920882</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="257363608869672643452639640460584331841_2_-4ja5b.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P71" patientID="314684658929097797351034728263172823743" naissance="1974" sexe="F">
+    <etude id="S79" studyID="278948104568698034857207837457891721065">
+      <rapport reportID="5243110" methode="Physician">
+        <texte>motiv consult melanom esplda . torax anodin .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L46"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="278948104568698034857207837457891721065_azcvbt.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="278948104568698034857207837457891721065_z574go.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P72" patientID="133812285061840616475125093338918159262" naissance="1932" sexe="F">
+    <etude id="S80" studyID="189327093731182702391471042928023222602">
+      <rapport reportID="5145062" methode="Physician">
+        <texte>resolucion derram pleural izquierd . rest sin cambi relev con respect estudi previ ener 2016 con comp .</texte>
+        <labels><label ref="L21"/><label ref="L17"/></labels>
+        <localisations><loc ref="LOC13"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L21"/><loc ref="LOC13"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C2073625</cui></cuisLabels>
+        <cuisLocalisations><cui>C0032225</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="189327093731182702391471042928023222602_auiya4.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P73" patientID="315196817886220019977949285815184594748" naissance="1945" sexe="F">
+    <etude id="S81" studyID="98283861340811287790054793819459454572">
+      <rapport reportID="5079798" methode="Physician">
+        <texte>cambi pulmonar cronic con tract fibros lsd . aument densid parec extrapleural call osea fals imag nivel medi hemitorax derech . cit complet estudi con tc torax .</texte>
+        <labels><label ref="L75"/><label ref="L55"/><label ref="L3"/></labels>
+        <localisations><loc ref="LOC20"/><loc ref="LOC57"/><loc ref="LOC4"/><loc ref="LOC15"/><loc ref="LOC44"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L46"/></phrase>
+          <phrase><label ref="L75"/><loc ref="LOC4"/><loc ref="LOC20"/><loc ref="LOC57"/><loc ref="LOC15"/></phrase>
+          <phrase><label ref="L55"/><label ref="L3"/><loc ref="LOC44"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C1443940</cui><cui>C0865843</cui><cui>C0742362</cui></cuisLabels>
+        <cuisLocalisations><cui>C0262950</cui><cui>C0442091</cui><cui>C0444532</cui><cui>C0934569</cui><cui>C1261074</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="98283861340811287790054793819459454572_126tda.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S82393" studyID="216840111366964012283393834152009016134847151">
+      <rapport reportID="3552732" methode="RNN_model">
+        <texte>aument mediastin superior probabl etiologi vascul sin cambi con respect estudi previ ano 2006 . hili prominent orig vascul . cardiomegali .</texte>
+        <labels><label ref="L31"/><label ref="L15"/><label ref="L14"/></labels>
+        <localisations><loc ref="LOC6"/><loc ref="LOC9"/><loc ref="LOC8"/><loc ref="LOC40"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L31"/><loc ref="LOC9"/><loc ref="LOC40"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/></phrase>
+          <phrase><label ref="L14"/><loc ref="LOC8"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C4273001</cui><cui>C0018800</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205150</cui><cui>C0025066</cui><cui>C1522601</cui><cui>C0230147</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964012283393834152009016134847151_00-012-100.png" dossier="37" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S86131" studyID="216840111366964013076187734852011186101857599">
+      <rapport reportID="4081900" methode="RNN_model">
+        <texte>lesion espaci aere morfologi pseudonodul margen mal defin localiz lobul superior izquierd segment anterior . si clinic no infecci recomiend descart orig tumoral .</texte>
+        <labels><label ref="L5"/><label ref="L53"/></labels>
+        <localisations><loc ref="LOC50"/><loc ref="LOC55"/><loc ref="LOC11"/></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L5"/><loc ref="LOC50"/><loc ref="LOC55"/><loc ref="LOC11"/></phrase>
+          <phrase><label ref="L53"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0032285</cui></cuisLabels>
+        <cuisLocalisations><cui>C0225752</cui><cui>C0225756</cui><cui>C0443246</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013076187734852011186101857599_00-141-009.png" dossier="39" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013076187734852011186101857599_00-140-198.png" dossier="39" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P74" patientID="183787595504027151575485183870475975719" naissance="1971" sexe="F">
+    <etude id="S82" studyID="22304814230742655045317418742111159743">
+      <rapport reportID="4949069" methode="Physician">
+        <texte>cambi cirugi cervical . plac inspir . no identific grand alter nivel parenquim pulmon .</texte>
+        <labels><label ref="L76"/></labels>
+        <localisations><loc ref="LOC25"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L76"/><loc ref="LOC25"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0185773</cui></cuisLabels>
+        <cuisLocalisations><cui>C0920882</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="22304814230742655045317418742111159743_4ekj2s.png" dossier="0" projection="AP_horizontal" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    <etude id="S31004" studyID="216840111366964013686042548532013217093346574">
+      <rapport reportID="4522683" methode="RNN_model">
+        <texte>. . no visualiz infiltr ni condens pulmonar .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="reconstruit">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="216840111366964013686042548532013217093346574_02-001-063.png" dossier="14" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="216840111366964013686042548532013217093346574_02-001-048.png" dossier="14" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P75" patientID="104011284377614999811524851099632453215" naissance="1970" sexe="M">
+    <etude id="S83" studyID="153144722300895942937262007594583779219">
+      <rapport reportID="4952010" methode="Physician">
+        <texte>sin hallazg signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="153144722300895942937262007594583779219_ohw52d.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P76" patientID="126561352778251404095034997266305850649" naissance="1981" sexe="M">
+    <etude id="S84" studyID="160905887670149519308222185798865262639">
+      <rapport reportID="4825371" methode="Physician">
+        <texte>sin hallazg radiolog signific . sin cambi respect estudi previ</texte>
+        <labels><label ref="L17"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L17"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="160905887670149519308222185798865262639_e1wlr4.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="160905887670149519308222185798865262639_d51bco.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P77" patientID="247635812907170778067848206329396412885" naissance="1972" sexe="M">
+    <etude id="S85" studyID="125998750830791689348030012609205089696">
+      <rapport reportID="4686084" methode="Physician">
+        <texte>. . . . parenquim pulmon sin alter radiolog signific .</texte>
+        <labels><label ref="L1"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="125998750830791689348030012609205089696_rhvmts.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="125998750830791689348030012609205089696_r0z2uf.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P78" patientID="220979380566154231372551401788804267499" naissance="1939" sexe="F">
+    <etude id="S86" studyID="179392425612003861856579841596010580915">
+      <rapport reportID="5499454" methode="Physician">
+        <texte>cifoescoliosis . no objetiv infiltr ni condens</texte>
+        <labels><label ref="L33"/><label ref="L4"/></labels>
+        <localisations></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L33"/><label ref="L4"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0036439</cui><cui>C2115817</cui></cuisLabels>
+        <cuisLocalisations></cuisLocalisations>
+      </rapport>
+      <image fichier="179392425612003861856579841596010580915_ealasq.png" dossier="0" projection="PA" pediatrique="No" methodeProjection="DICOM"/>
+      <image fichier="179392425612003861856579841596010580915_eb2lo2.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+  </patient>
+  <patient id="P79" patientID="163876270861029671346812020739423974593" naissance="1947" sexe="M">
+    <etude id="S87" studyID="103068978310626696588063438698984797472">
+      <rapport reportID="5309964" methode="Physician">
+        <texte>sign epoc . hili derech prominent orig vascul sin cambi con respect estudi previ fech 15 08 2011 . sin hallazg radiolog signific sin cambi relev con respect previ con comp .</texte>
+        <labels><label ref="L7"/><label ref="L15"/></labels>
+        <localisations><loc ref="LOC6"/><loc ref="LOC4"/></localisations>
+        <phrases decoupage="original">
+          <phrase><label ref="L7"/></phrase>
+          <phrase><label ref="L1"/></phrase>
+          <phrase><label ref="L15"/><loc ref="LOC6"/><loc ref="LOC4"/></phrase>
+        </phrases>
+        <cuisLabels><cui>C0024117</cui></cuisLabels>
+        <cuisLocalisations><cui>C0205150</cui><cui>C0444532</cui></cuisLocalisations>
+      </rapport>
+      <image fichier="103068978310626696588063438698984797472_67ggij.png" dossier="0" projection="L" pediatrique="No" methodeProjection="DICOM"/>
+    </etude>
+    </patient>
+    </padchest>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  - types simples dérivés (années, identifiants, CUIs, noms de fichiers) ;
+      - énumérations ;
+      - cardinalités ;
+      - key / keyref : contrairement à la DTD, un <label ref> ne peut pointer
+        QUE vers un labelDef, et un <loc ref> QUE vers un locDef.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+
+    <!-- "1930.0" du CSV est converti en "1930". Bornes : naissances plausibles. -->
+    <xs:simpleType name="tAnnee">
+        <xs:restriction base="xs:gYear">
+            <xs:minInclusive value="1900"/>
+            <xs:maxInclusive value="2026"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tSexe">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="M"/>
+            <xs:enumeration value="F"/>
+            <xs:enumeration value="O"/> <!-- Other : présent 18 fois dans le CSV -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tProjection">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="PA"/>
+            <xs:enumeration value="L"/>
+            <xs:enumeration value="AP"/>
+            <xs:enumeration value="AP_horizontal"/>
+            <xs:enumeration value="COSTAL"/>
+            <xs:enumeration value="EXCLUDE"/> <!-- non annoncé dans l'énoncé : 11 images -->
+            <xs:enumeration value="UNK"/>     <!-- non annoncé dans l'énoncé : 8 images -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tPediatrique">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="No"/>
+            <xs:enumeration value="PED"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tMethodeProjection">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="DICOM"/>    <!-- "Manual review of DICOM fields" -->
+            <xs:enumeration value="ResNet50"/> <!-- "resnet-50.t7" -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tMethodeLabel">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="Physician"/>
+            <xs:enumeration value="RNN_model"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- original = vraies phrases (Physician) ; reconstruit = liste plate (RNN_model) -->
+    <xs:simpleType name="tDecoupage">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="original"/>
+            <xs:enumeration value="reconstruit"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Identifiants XML générés par le convertisseur -->
+    <xs:simpleType name="tIdPatient">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="P[1-9][0-9]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tIdEtude">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="S[1-9][0-9]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tIdLabel">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="L[1-9][0-9]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tIdLoc">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="LOC[1-9][0-9]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Identifiants venant du CSV -->
+    <xs:simpleType name="tPatientID">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[0-9]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ex : 2053...468   313...553_5   313...553-4 -->
+    <xs:simpleType name="tStudyID">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[0-9]+([_\-][0-9]+)?"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ex : 2053..._k6ga29.png   ou   2168..._01-033-112.png -->
+    <xs:simpleType name="tFichier">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[0-9]+([_\-][0-9]+)?_[0-9a-z\-]+\.png"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tDossier">
+        <xs:restriction base="xs:nonNegativeInteger">
+            <xs:maxInclusive value="54"/> <!-- dossiers zip 0 à 54 -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Concept UMLS : C suivi de 7 chiffres -->
+    <xs:simpleType name="tCUI">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="C[0-9]{7}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tTermeLabel">
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Une localisation commence toujours par "loc " -->
+    <xs:simpleType name="tTermeLoc">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="loc .+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tTexte">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- =========================================================
+         Types complexes
+         ========================================================= -->
+
+    <xs:complexType name="tRefLabel">
+        <xs:attribute name="ref" type="xs:IDREF" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tRefLoc">
+        <xs:attribute name="ref" type="xs:IDREF" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tListeCUI">
+        <xs:sequence>
+            <xs:element name="cui" type="tCUI" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tRapport">
+        <xs:sequence>
+            <!-- absent = "nan" dans le CSV -->
+            <xs:element name="texte" type="tTexte" minOccurs="0"/>
+            <xs:element name="labels" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="label" type="tRefLabel" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="localisations" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="loc" type="tRefLoc" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="phrases" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="phrase" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <!-- les labels, PUIS leurs localisations -->
+                                <xs:sequence>
+                                    <xs:element name="label" type="tRefLabel" minOccurs="0" maxOccurs="unbounded"/>
+                                    <xs:element name="loc" type="tRefLoc" minOccurs="0" maxOccurs="unbounded"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="decoupage" type="tDecoupage" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="cuisLabels" type="tListeCUI" minOccurs="0"/>
+            <xs:element name="cuisLocalisations" type="tListeCUI" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="reportID" type="xs:positiveInteger" use="required"/>
+        <xs:attribute name="methode" type="tMethodeLabel" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tImage">
+        <xs:attribute name="fichier" type="tFichier" use="required"/>
+        <xs:attribute name="dossier" type="tDossier" use="required"/>
+        <xs:attribute name="projection" type="tProjection" use="required"/>
+        <xs:attribute name="pediatrique" type="tPediatrique" use="required"/>
+        <xs:attribute name="methodeProjection" type="tMethodeProjection" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tEtude">
+        <xs:sequence>
+            <xs:element name="rapport" type="tRapport"/>
+            <xs:element name="image" type="tImage" maxOccurs="unbounded"/> <!-- au moins une -->
+        </xs:sequence>
+        <xs:attribute name="id" type="tIdEtude" use="required"/>
+        <xs:attribute name="studyID" type="tStudyID" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tPatient">
+        <xs:sequence>
+            <xs:element name="etude" type="tEtude" maxOccurs="unbounded"/> <!-- au moins une -->
+        </xs:sequence>
+        <xs:attribute name="id" type="tIdPatient" use="required"/>
+        <xs:attribute name="patientID" type="tPatientID" use="required"/>
+        <xs:attribute name="naissance" type="tAnnee" use="optional"/>
+        <xs:attribute name="sexe" type="tSexe" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="tDictionnaire">
+        <xs:sequence>
+            <xs:element name="labelDef" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="tTermeLabel">
+                            <xs:attribute name="id" type="tIdLabel" use="required"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="locDef" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="tTermeLoc">
+                            <xs:attribute name="id" type="tIdLoc" use="required"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- =========================================================
+         Racine + contraintes d'identité
+         ========================================================= -->
+
+    <xs:element name="padchest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dictionnaire" type="tDictionnaire"/>
+                <xs:element name="patient" type="tPatient" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+
+        <!-- Chaque terme du dictionnaire a un id unique... -->
+        <xs:key name="cleLabel">
+            <xs:selector xpath="dictionnaire/labelDef"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+        <xs:key name="cleLoc">
+            <xs:selector xpath="dictionnaire/locDef"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <!-- ...et n'apparaît qu'une seule fois (c'est tout l'intérêt du dictionnaire). -->
+        <xs:unique name="termeLabelUnique">
+            <xs:selector xpath="dictionnaire/labelDef"/>
+            <xs:field xpath="."/>
+        </xs:unique>
+        <xs:unique name="termeLocUnique">
+            <xs:selector xpath="dictionnaire/locDef"/>
+            <xs:field xpath="."/>
+        </xs:unique>
+
+        <!-- Un <label ref> doit pointer vers un labelDef, un <loc ref> vers un locDef.
+             La DTD (IDREF) accepterait un label qui pointe vers une localisation. -->
+        <xs:keyref name="refLabel" refer="cleLabel">
+            <xs:selector xpath=".//label"/>
+            <xs:field xpath="@ref"/>
+        </xs:keyref>
+        <xs:keyref name="refLoc" refer="cleLoc">
+            <xs:selector xpath=".//loc"/>
+            <xs:field xpath="@ref"/>
+        </xs:keyref>
+    </xs:element>
+
+</xs:schema>

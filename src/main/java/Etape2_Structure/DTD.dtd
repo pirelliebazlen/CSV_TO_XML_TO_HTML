@@ -1,0 +1,76 @@
+<!--
+    DTD du fichier PadChest converti.
+
+    Hiérarchie : padchest > patient > etude > image
+    Référence interne : les labels/localisations d'un rapport pointent (IDREF)
+    vers le dictionnaire, où chaque terme n'est écrit qu'une seule fois.
+
+    Rappel : en DTD, on ne peut énumérer que des valeurs d'ATTRIBUTS.
+    C'est pour cela que projection, sexe, pediatrique, methode... sont des attributs.
+-->
+
+
+<!ELEMENT padchest (dictionnaire, patient+)><!-- ===== Racine ===== -->
+
+<!ELEMENT dictionnaire (labelDef*, locDef*)><!-- ===== Dictionnaire : tous les termes distincts ===== -->
+
+<!ELEMENT labelDef (#PCDATA)>
+<!ATTLIST labelDef id ID #REQUIRED>
+
+<!ELEMENT locDef (#PCDATA)>
+<!ATTLIST locDef id ID #REQUIRED>
+
+<!-- ===== Patient : informations écrites une seule fois ===== -->
+<!ELEMENT patient (etude+)>
+<!ATTLIST patient id        ID        #REQUIRED
+        patientID CDATA     #REQUIRED
+        naissance CDATA     #IMPLIED
+        sexe      (M|F|O)   #IMPLIED>
+<!-- naissance absente : année manquante dans le CSV (6 images)
+     sexe absent       : "nan" dans le CSV ; O = Other (valeur DICOM réelle) -->
+
+<!-- ===== Étude : un rapport, une ou plusieurs images ===== -->
+<!ELEMENT etude (rapport, image+)>
+<!ATTLIST etude
+        id      ID    #REQUIRED
+        studyID CDATA #REQUIRED>
+<!-- studyID n'est PAS un ID XML : il commence par un chiffre, et un même
+     StudyID apparaît chez deux patients différents dans le fichier. -->
+
+<!ELEMENT rapport (texte?, labels?, localisations?, phrases?, cuisLabels?, cuisLocalisations?)>
+<!ATTLIST rapport reportID CDATA                 #REQUIRED
+        methode  (Physician|RNN_model) #REQUIRED>
+<!-- reportID n'est pas un ID XML non plus : plusieurs études partagent le même rapport. -->
+
+<!ELEMENT texte (#PCDATA)>
+
+<!-- élément absent = valeur "nan" ; élément vide = liste connue mais vide -->
+<!ELEMENT labels        (label*)>
+<!ELEMENT localisations (loc*)>
+<!ELEMENT phrases       (phrase*)>
+<!-- original    : vraies phrases (rapports Physician)
+     reconstruit : liste plate dans le CSV (rapports RNN_model), groupes reconstruits -->
+<!ATTLIST phrases decoupage (original|reconstruit) #REQUIRED>
+<!-- dans toutes les vraies phrases du fichier : les labels, PUIS leurs localisations -->
+<!ELEMENT phrase        (label*, loc*)>
+
+<!ELEMENT label EMPTY>
+<!ATTLIST label ref IDREF #REQUIRED>
+
+<!ELEMENT loc EMPTY>
+<!ATTLIST loc ref IDREF #REQUIRED>
+
+<!ELEMENT cuisLabels        (cui*)>
+<!ELEMENT cuisLocalisations (cui*)>
+<!ELEMENT cui (#PCDATA)>
+
+<!-- ===== Image ===== -->
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+        fichier           CDATA                                       #REQUIRED
+        dossier           CDATA                                       #REQUIRED
+        projection        (PA|L|AP|AP_horizontal|COSTAL|EXCLUDE|UNK)  #REQUIRED
+        pediatrique       (No|PED)                                    #REQUIRED
+        methodeProjection (DICOM|ResNet50)                            #REQUIRED>
+<!-- EXCLUDE (11 images) et UNK (8 images) existent dans le fichier
+     alors que l'énoncé n'annonce que 5 projections. -->
